@@ -1,0 +1,16 @@
+on master
+RESET MASTER;
+SET GLOBAL binlog_format='mixed';
+FLUSH TABLES WITH READ LOCK;
+SHOW MASTER STATUS; 
+^z  (or go to another window but leavte  it runing  or it release the locks).
+
+
+in aother window do
+   mysqldump -u root  --all-databases > june7.sql
+then can resume above and
+
+UNLOCK TABLES;
+QUIT
+
+ 

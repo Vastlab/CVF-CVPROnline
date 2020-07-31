@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar - Shortcode And Templates Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-07 11:11+0000\n"
+"PO-Revision-Date: 2020-02-07 11:17+0000\n"
+"Last-Translator: admin <jyotithakur15111@gmail.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#: the-events-calendar-templates-and-shortcode.php:130
+#, php-format
+msgid ""
+"In order to use this addon, Please first install the latest version of <a "
+"href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a> and add an event."
+msgstr ""
+
+#: the-events-calendar-templates-and-shortcode.php:525
+#: includes/ect-load-more-handler.php:159 includes/ect-masonry-loop.php:143
+msgid "There are no upcoming events at this time."
+msgstr "Er zijn geen evenementen op dit moment."
+
+#: the-events-calendar-templates-and-shortcode.php:578
+#: the-events-calendar-templates-and-shortcode.php:626
+#: the-events-calendar-templates-and-shortcode.php:669
+#: the-events-calendar-templates-and-shortcode.php:695
+msgid "Load More"
+msgstr "Meer laden"
+
+#: the-events-calendar-templates-and-shortcode.php:579
+#: the-events-calendar-templates-and-shortcode.php:629
+#: the-events-calendar-templates-and-shortcode.php:670
+#: the-events-calendar-templates-and-shortcode.php:696
+msgid "Load more"
+msgstr "Meer laden"
+
+#: the-events-calendar-templates-and-shortcode.php:579
+#: the-events-calendar-templates-and-shortcode.php:629
+#: the-events-calendar-templates-and-shortcode.php:670
+#: the-events-calendar-templates-and-shortcode.php:696
+msgid "No Event Found"
+msgstr "Geen evenement gevonden"
+
+#: the-events-calendar-templates-and-shortcode.php:580
+#: the-events-calendar-templates-and-shortcode.php:630
+#: the-events-calendar-templates-and-shortcode.php:671
+#: the-events-calendar-templates-and-shortcode.php:697
+msgid "Loading"
+msgstr "Bezig met laden"
+
+#: the-events-calendar-templates-and-shortcode.php:863
+#: the-events-calendar-templates-and-shortcode.php:866
+#: the-events-calendar-templates-and-shortcode.php:875
+#: the-events-calendar-templates-and-shortcode.php:878
+#, php-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: the-events-calendar-templates-and-shortcode.php:903
+msgid "(See All)"
+msgstr "(Bekijk Alle)"
+
+#: admin/ect-feedback-notice.php:71
+msgid "I already rated it"
+msgstr "Ik heb al het nominale"
+
+#: admin/ect-feedback-notice.php:72
+msgid "Not Interested"
+msgstr "Niet Geïnteresseerd"
+
+#: admin/ect-feedback-notice.php:73
+msgid "No, not good enough, i do not like to rate it!"
+msgstr "Nee, niet goed genoeg, ik hou er niet van om het te beoordelen!"
+
+#: includes/ect-functions.php:163
+msgid "All"
+msgstr "Allemaal"
+
+#: includes/ect-functions.php:340
+msgctxt "list view stock sold out"
+msgid "Sold out"
+msgstr "Uitverkocht"
+
+#: includes/ect-functions.php:373
+#, php-format
+msgid "%s spot left"
+msgid_plural "%s spots left"
+msgstr[0] "%s plek links"
+msgstr[1] "%s vlekken links"
+
+#: includes/ect-functions.php:375
+#, php-format
+msgid "%s ticket left"
+msgid_plural "%s tickets left"
+msgstr[0] "%s ticket links"
+msgstr[1] "%s kaarten"
+
+#: includes/ect-functions.php:387
+msgid "RSVP Now"
+msgstr "RESERVEER Nu"
+
+#: includes/ect-functions.php:390
+msgid "Buy Now"
+msgstr "Nu Kopen"
+
+#: templates/calendar-template.php:91
+msgid "January"
+msgstr "Januari"
+
+#: templates/calendar-template.php:92
+msgid "February"
+msgstr "Februari"
+
+#: templates/calendar-template.php:93
+msgid "March"
+msgstr "Maart"
+
+#: templates/calendar-template.php:94
+msgid "April"
+msgstr "April"
+
+#: templates/calendar-template.php:95
+msgid "May"
+msgstr "Mei"
+
+#: templates/calendar-template.php:96
+msgid "June"
+msgstr "Juni"
+
+#: templates/calendar-template.php:97
+msgid "July"
+msgstr "Juli"
+
+#: templates/calendar-template.php:98
+msgid "August"
+msgstr "Augustus"
+
+#: templates/calendar-template.php:99
+msgid "September"
+msgstr "September"
+
+#: templates/calendar-template.php:100
+msgid "October"
+msgstr "Oktober"
+
+#: templates/calendar-template.php:101
+msgid "November"
+msgstr "November"
+
+#: templates/calendar-template.php:102
+msgid "December"
+msgstr "December"
+
+#: templates/calendar-template.php:105
+msgid "Sun"
+msgstr "Zon"
+
+#: templates/calendar-template.php:106
+msgid "Mon"
+msgstr "Mon"
+
+#: templates/calendar-template.php:107
+msgid "Tue"
+msgstr "Tue"
+
+#: templates/calendar-template.php:108
+msgid "Wed"
+msgstr "Wo"
+
+#: templates/calendar-template.php:109
+msgid "Thu"
+msgstr "Thu"
+
+#: templates/calendar-template.php:110
+msgid "Fri"
+msgstr "Vr"
+
+#: templates/calendar-template.php:111
+msgid "Sat"
+msgstr "Sat"
+
+#: templates/calendar-template.php:124
+msgid "Today"
+msgstr "Vandaag"
+
+#: templates/calendar-template.php:130
+msgid "Month"
+msgstr "Maand"
+
+#: templates/calendar-template.php:131
+msgid "Day"
+msgstr "Dag"
+
+#: templates/calendar-template.php:132
+msgid "Week"
+msgstr "Week"
+
+#. Name of the plugin
+msgid "The Events Calendar - Shortcode And Templates Pro"
+msgstr "De Evenementen Agenda - Shortcode En Sjablonen Pro"
+
+#. Description of the plugin
+msgid ""
+"The Events Calendar Shortcode And Templates Pro addon provides events list "
+"design templates and shortcode generator functionality for The Events "
+"Calendar plugin. It is an unofficial third party addon for <a href=\"http:"
+"//wordpress.org/plugins/the-events-calendar/\">The Events Calendar (by "
+"Modern Tribe)</a> that extends its design limitations."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://eventscalendartemplates.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr "Coole Plugins"
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr ""

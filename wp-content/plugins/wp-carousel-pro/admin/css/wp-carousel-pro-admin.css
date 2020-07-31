@@ -1,0 +1,153 @@
+#adminmenu .menu-icon-sp_wp_carousel .wp-menu-image img {
+    width: 22px;
+    padding: 7px 0;
+    height: 20px;
+}
+
+.js .tmce-active .wp-editor-area {
+    color: #000000
+}
+
+/* Admin Preloader */
+.sp_wpcp_shortcode_generator .spf-wrapper {
+    min-height: 200px;
+    z-index: 999;
+    background-image: url(../img/preloader.gif);
+    background-repeat: no-repeat;
+    background-color:#fff;
+    background-position: center;
+}
+.sp_wpcp_shortcode_generator .spf-wrapper .spf-nav-metabox li {
+    opacity: 0;
+}
+
+/* Help Page */
+.text-center {
+    text-align: center;
+}
+
+div.sp-wpcp-help .wp-badge {
+    border: none;
+    background: url(../img/wpcp-icon-256.png) right no-repeat;
+    background-size: 100px 100px;
+    box-shadow: none;
+    height: auto;
+    top: -75px;
+}
+
+.about-wrap.sp-wpcp-help [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-wrap.sp-wpcp-help [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.about-wrap.sp-wpcp-help .feature-section .col {
+    margin-top: 40px;
+}
+
+.about-wrap.sp-wpcp-help [class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+
+.wrap.about-wrap.sp-wpcp-help .headline-feature.feature-video {
+    position: relative;
+    margin: 40px 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    text-align: center;
+}
+
+div.sp-wpcp-help .headline-feature.feature-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.sp-wpcp-help .plugin-section .sp-plugin-section-title h2 {
+    font-size: 2.2em;
+    color: #32373c;
+    font-weight: 400;
+}
+div.sp-wpcp-help .plugin-section .sp-plugin-section-title h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    color: #555d66;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+div.sp-wpcp-help .feature-section .sp-wpcp-feature {
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+}
+
+div.sp-wpcp-help .feature-section .sp-wpcp-feature h3 {
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+div.sp-wpcp-help .feature-section i.sp-wpcp-font-icon {
+    font-size: 30px;
+    display: block;
+    color: #18AFB9;
+    font-family: fontawesome;
+    font-style: normal;
+}
+
+/* Plugin Display Section */
+.about-wrap .plugin-section .three-col .col .sp-wpcp-plugin {
+    border: 1px solid #ddd;
+}
+.about-wrap .plugin-section .three-col .col {
+    background: #ffffff;
+}
+.about-wrap .plugin-section .three-col .col {
+    background: #ffffff;
+}
+.about-wrap .plugin-section .three-col .col .sp-wpcp-plugin .sp-wpcp-plugin-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.about-wrap .plugin-section .three-col .col .sp-wpcp-plugin .sp-wpcp-plugin-content h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.about-wrap .plugin-section .three-col .col .sp-wpcp-plugin .sp-wpcp-plugin-content p {
+    margin-top: 0;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 782px) {
+    .about-wrap .three-col .col {
+        min-width: 48% !important;
+        max-width: 48% !important;
+        margin-left: 0 !important;
+    }
+    .about-wrap.sp-wpcp-help .feature-section .col {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-wrap .three-col .col {
+        min-width: 100% !important;
+    }
+
+    div.sp-wpcp-help .wp-badge {
+        background-position-x: center;
+        top: 0;
+    }
+}

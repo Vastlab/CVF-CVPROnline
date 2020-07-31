@@ -1,0 +1,67 @@
+<?php
+
+/**
+ * Wise Chat links post-filter.
+ *
+ * @author Kainex <contact@kaine.pl>
+ */
+class WiseChatLinksPostFilter {
+	const SHORTCODE_REGEXP = '/\[link src=&quot;(.+?)&quot;\]/i';
+	const URL_PROTOCOLS_REGEXP = "/^(https|http|ftp)\:\/\//i";
+	const LINK_TAG_TEMPLATE = '<a href="%s" data-tag="%s" data-type="link" target="_blank" rel="noopener noreferrer nofollow">%s</a>';
+
+	/**
+	* Detects all hyperlinks in shortcode format and converts them into real hyperlinks or raw URLs
+	*
+	* @param string $text HTML-encoded string
+	* @param boolean $linksEnabled Whether to convert shortcodes into real hyperlinks
+	*
+	* @return string
+	*/
+	public function filter($text, $linksEnabled) {
+		if (preg_match_all(self::SHORTCODE_REGEXP, $text, $matches)) {
+			if (count($matches) < 2) {
+				return $text;
+			}
+			
+			foreach ($matches[0] as $key => $shortCode) {
+				$tagEncrypted = base64_encode((WiseChatCrypt::encrypt(gzcompress($matches[0][$key]))));
+				$shortCodeSrc = $matches[1][$key];
+				
+				if ($linksEnabled) {
+					$url = $shortCodeSrc;
+					if (!preg_match(self::URL_PROTOCOLS_REGEXP, $shortCodeSrc)) {
+						$url = "http://".$shortCodeSrc;
+					}
+					$linkBody = htmlentities(urldecode($shortCodeSrc), ENT_QUOTES, 'UTF-8', false);
+					$linkTag = sprintf(self::LINK_TAG_TEMPLATE, $url, $tagEncrypted, $linkBody);
+				
+					$text = $this->strReplaceFirst($shortCode, $linkTag, $text);
+				} else {
+					$text = $this->strReplaceFirst($shortCode, $shortCodeSrc, $text);
+				}
+			}
+		}
+		
+		return $text;
+	}
+
+    /**
+     * Replaces first occurrence of the needle.
+     *
+     * @param string $needle
+     * @param string $replace
+     * @param string $haystack
+     *
+     * @return string
+     */
+	private function strReplaceFirst($needle, $replace, $haystack) {
+		$pos = strpos($haystack, $needle);
+		
+		if ($pos !== false) {
+			return substr_replace($haystack, $replace, $pos, strlen($needle));
+		}
+		
+		return $haystack;
+	}
+}	

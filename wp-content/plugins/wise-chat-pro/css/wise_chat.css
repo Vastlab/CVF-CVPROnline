@@ -1,0 +1,884 @@
+@import 'wise_chat_default.css';
+/* CUSTOM WISE CHAT PRO*/
+a:focus {
+	outline: none !important;
+}
+
+/*COPIED FROM Previous Oryginal wise_chat_PRO  -------------------------------------------------- */
+.wcContainer {
+	position: relative;
+}
+.wcContainer .wcInvisible {
+	display: none !important;
+}
+
+.wcContainer .wcCenter {
+	text-align: center;
+}
+
+.wcContainer .wcBottomMargin {
+	margin-bottom: 6px;
+}
+
+.wcContainer .wcImage, .wcMessage .wcImage {
+	border-radius: 0; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 4px;
+}
+
+.wcMessage .wcVideoPlayer {
+	border-radius: 0; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 4px;
+}
+
+.wcMessage .wcMessageAvatar {
+	border-radius:0; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 4px; max-width: 45px;
+}
+.wcContainer .wcMessages .wcMessage {
+	clear: both; padding-top: 5px;
+}
+.wcContainer .wcMessages .wcMessage .wcMessageContentInternal {
+	color: inherit;
+}
+
+.wcContainer .wcMessages .wcMessageHidden {
+	background-color: rgba(255, 0, 4, 0.07);
+	border: 1px solid rgba(255, 0, 4, 0.17);
+	overflow: hidden; padding: 5px; 
+}
+
+.wcContainer .wcMessages .wcMessage *[contenteditable="true"] {
+	border: 1px dashed rgba(0,193,121,1) ;
+	outline: 0 solid transparent;
+	display: block;
+}
+
+.wcWidth300 .wcMessageContent {
+	display: block; 
+	/* border-bottom: 1px solid #f3f3f3; margin-bottom: 5px; padding-bottom: 5px; */
+}
+
+.wcUsersListIncluded .wcUsersList a {
+	border-bottom: none;
+	position: relative;
+}
+
+
+.wcUsersListIncluded .wcUsersList .wcUsersListContainer {
+	-webkit-overflow-scrolling: touch; overflow-y: auto; -webkit-flex: 1; flex: 1;
+}
+
+.wcUsersListIncluded .wcUsersList .wcUsersListFooter {
+	margin: 0; padding: 2px; border-top: 1px solid #dfdfdf; background-color: #fff;
+}
+
+.wcUsersListIncluded .wcUserListTitle {
+	border: 1px solid #dfdfdf; overflow: auto; background-color: #fff; margin: 0px;
+	border-bottom: none; -webkit-overflow-scrolling: touch;
+}
+
+.wcUsersListIncluded .wcUserListTitle a {
+	border-bottom: none;
+}
+
+.wcUsersListIncluded .wcUsersList a.wcUserInChannel, .wcUsersListIncluded .wcUsersList a.wcUserInChannel:visited {
+	text-decoration: none; display: block; padding: 5px 15px 5px 10px; color: #111; outline: none; margin: 0;
+}
+.wcUsersListIncluded .wcUsersList a.wcUserInChannel:hover {
+	background-color: #f7f7f7;
+}
+.wcUsersListIncluded .wcUsersList a.wcUserActive .wcUserActivityFlag,
+.wcUsersListIncluded .wcUsersList a.wcUserInactive .wcUserActivityFlag {
+	display: inline-block; height: 10px; width: 10px; border-radius: 50%; position: absolute; right: 5px; top: 50%; transform: translateY(-50%); z-index: 1; 
+}
+.wcUsersListIncluded .wcUsersList a.wcUserActive .wcUserActivityFlag {
+	background: rgb(9, 193, 121); 
+}
+
+.wcUsersListIncluded .wcUsersList a.wcUserInactive .wcUserActivityFlag {
+	background: rgba(244,31,31,0.5);
+}
+
+.wcUsersListIncluded .wcUsersList .wcUsersListSearchBox {
+	margin: 0; padding-left: 20px; display: -webkit-flex; display: flex;
+	background-image: url('../gfx/icons/search.svg');
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+
+.wcUsersListIncluded .wcUsersList .wcUsersListSearchBox .wcUsersListSearchBoxCancelButton {
+	width: 25px; outline: none; text-align: center; position: relative;
+}
+
+.wcUsersListIncluded .wcUsersList .wcUsersListSearchBox .wcUsersListSearchBoxCancelButton img {
+	margin: 0;  margin-top: -9px; margin-left: -9px;
+	position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; background-size: 100%;
+}
+
+.wcUsersListIncluded .wcUsersList .wcUsersListSearchBox .wcInput {
+	flex-grow: 1; background: transparent; outline: none; border: none; height: 2em; margin: 0; padding: 3px; box-shadow: none;
+}
+
+.wcUsersListIncluded .wcUsersList .wcUsersListSearchBox .wcInput::-ms-clear { display:none; }
+
+.wcUsersListIncluded .wcUsersList .wcUsersListSearchBox .wcInput:focus, .wcUsersListIncluded .wcUsersList .wcUsersListSearchBox .wcInput:active {
+	outline: none; border: none;
+}
+
+
+.wcUserInChannel img.wcUserListAvatar {
+	max-width: 25px; margin: 0 4px 2px 0px; border-radius: 50%; box-shadow: none; border: none; display: inline-block; vertical-align: middle;
+}
+
+.wcSidebarMode .wcOperationalSection {
+	background-color: inherit;
+	border-top: 0;
+}
+
+/* Top controls */
+.wcContainer .wcTopControls {
+	position: relative;
+	height: 32px;
+}
+.wcContainer.wcWidth500 .wcTopControls:not(.wcInvisible) {
+	box-shadow: 0 -1px 1px rgba(0,0,0,0.1) inset;
+	height: 35px;
+}
+.wcContainer.wcWidth500 .wcTopControls:not(.wcInvisible) .wcTopControlsButton  {
+	top: 2px;
+}
+.wcContainer .wcTopControls .wcUserListToggle  {
+	background: url('../gfx/icons/users.svg') center center no-repeat;
+	width: 32px;
+}
+
+.wcContainer .wcTopControls .wcTopControlsButton {
+	right: 0px;
+	cursor: pointer !important;
+	display: inline-block;
+	width: 38px;
+	height: 32px;
+	padding: 0px 3px;
+	position: absolute;
+}
+
+.wcContainer .wcTopControls .wcTopControlsButton:hover, .wcContainer .wcTopControls .wcUserListToggleEnabled {
+	border: 1px solid #dfdfdf;
+	cursor: pointer !important;
+	outline: 0;
+}
+
+.wcContainer .wcTopControls .wcTopControlsButton:active, .wcContainer .wcTopControls .wcTopControlsButton:focus {
+	outline: 0;
+}
+
+.wcContainer input.wcChannelPassword {
+	margin-right: 5px; max-width: 200px; width: auto; margin-bottom: 5px;
+}
+
+/* Private messages: */
+.wcContainer .wcMessagesContainerTab {
+	color: #666; display: inline-block; padding: 4px 10px; 
+}
+
+.wcContainer .wcMessagesContainerTab a.wcMessagesContainerTabLink, .wcContainer .wcMessagesContainerTab a.wcMessagesContainerTabLink:visited {
+	color: #666; outline: none; display: inline-block; text-decoration: none;
+	max-width: 160px; white-space: nowrap; overflow:hidden !important; text-overflow: ellipsis;
+	vertical-align: bottom; font-size: 16px;  line-height: 1.8;
+}
+
+.wcContainer .wcMessagesContainerTab a.wcMessagesContainerTabLink:hover {
+	color: #111; outline: none; text-decoration: none;
+}
+
+.wcContainer .wcMessagesContainerTabActive {
+	border-bottom: 3px solid #111; margin-bottom: -1px;
+}
+
+.wcContainer .wcMessagesContainerTabActive a.wcMessagesContainerTabLink {
+	color: #111; 
+}
+
+.wcContainer .wcMessagesContainerTab a.wcMessagesContainerTabCloseLink, .wcContainer .wcMessagesContainerTab a.wcMessagesContainerTabCloseLink:visited {
+	width: 17px;
+	height: 17px;
+	background: transparent url(../gfx/icons/x.svg) no-repeat 50%; background-size: 100%;
+	display: inline-block; vertical-align: middle; border: 1px solid #A6A6A6;
+    border-radius: 50%;
+	text-indent: -5000px;
+	outline: none; margin-left: 7px; margin-top: -3px; text-decoration: none; 
+}
+
+.wcContainer .wcMessagesContainerTabActive a.wcMessagesContainerTabCloseLink, .wcContainer .wcMessagesContainerTab a.wcMessagesContainerTabCloseLink:hover {
+	color: #111; outline: none;
+}
+
+/* Private messages - tabs on mobile */
+.wcContainer .wcMessagesContainersTabs .wcLeftButton, .wcContainer .wcMessagesContainersTabs .wcRightButton {
+	display: none;
+}
+
+.wcWidth500 .wcMessagesContainersTabs > :not(.wcMessagesContainerTabActive) {
+	display: none;
+}
+
+.wcWidth500 .wcMessagesContainerTab a.wcMessagesContainerTabLink, .wcWidth500 .wcMessagesContainerTab a.wcMessagesContainerTabLink:visited {
+	max-width: none;
+}
+
+.wcWidth500 .wcMessagesContainersTabs > .wcMessagesContainerTabActive {
+	width: 100%; text-align: center; padding-left: 18px; padding-right: 18px;
+}
+
+.wcWidth500 .wcMessagesContainersTabs > .wcMessagesContainerTabActive > a {
+	padding-top: 5px; padding-bottom: 5px;
+}
+
+.wcWidth500 .wcMessagesContainersTabs > .wcMessagesContainerTabActive .wcMessagesContainerTabLink {
+	width: 100%; display: inline-block; white-space: nowrap; overflow:hidden !important; text-overflow: ellipsis;
+}
+
+.wcWidth500 .wcMessagesContainersTabs > .wcMessagesContainerTabActive > .wcMessagesContainerTabCloseLink {
+	position: absolute; right: 42px;
+}
+
+.wcWidth500 .wcMessagesContainersTabs {
+	padding: 0px 35px 0px 35px;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+}
+
+.wcWidth500 .wcMessagesContainersTabs .wcPmNavigationButton, .wcWidth500 .wcMessagesContainersTabs .wcPmNavigationButton:hover {
+	display: inline-block; position: absolute; width: 30px;	padding: 11px 7px; padding-top: 9px; line-height: inherit;
+	font-size: inherit; text-align: center; text-decoration: none;
+}
+
+.wcWidth500 .wcMessagesContainersTabs .wcPmNavigationButton:focus {
+	outline: 0; text-decoration: none;
+}
+
+.wcWidth500 .wcMessagesContainersTabs .wcPmNavigationButtonDisabled {
+	opacity: 0.3;
+}
+
+.wcWidth500 .wcMessagesContainersTabs .wcLeftButton {
+	left: 0px;
+}
+
+.wcWidth500 .wcMessagesContainersTabs .wcRightButton {
+	right: 0px;
+}
+
+/* Modals: */
+.wcModalBackgroundLayer {
+	position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(90, 90, 90, 0.7); z-index: 300010;
+}
+
+.wcModalBackgroundLayer .wcModalWindow {
+	position: absolute; display: inline-block;
+}
+
+.wcModalWindow .wcModalHeader {
+	color: #fff; background-color: #aaa; padding: 10px; border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+
+.wcModalWindow .wcModalContent {
+	padding: 10px 10px;
+}
+
+.wcModalWindow .wcModalFooter {
+	background-color: #eee; padding: 10px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;
+}
+
+.wcModalWindow .wcModalFooterButton {
+	float: right; display: inline-block; margin-left: 5px;
+}
+
+.wcContainer .wcExternalLoginHint {
+	margin: 15px 0px; text-align: center;
+}
+
+/* Social */
+.wcContainer .wcExternalLoginButtons a {
+	width: 200px; display: inline-block; margin: 2px;
+}
+
+.wcContainer .wcExternalLoginButtons .wcGoogleLoginButton {
+	background: #df4930 url('../gfx/icons/google.png') 12px center no-repeat; display: inline-block; color: #fff; padding: 20px 50px; text-decoration: none; border-radius: 7px; font-size: 1.3em;
+}
+.wcContainer .wcExternalLoginButtons .wcGoogleLoginButton:hover, .wcContainer .wcExternalLoginButtons .wcGoogleLoginButton:visited {
+	color: #fff; text-decoration: none;
+}
+
+.wcContainer .wcExternalLoginButtons .wcTwitterLoginButton {
+	background: #64ccf1 url('../gfx/icons/twitter.png') 12px center no-repeat; display: inline-block; color: #fff; padding: 20px 50px; text-decoration: none; border-radius: 7px; font-size: 1.3em;
+}
+.wcContainer .wcExternalLoginButtons .wcTwitterLoginButton:hover, .wcContainer .wcExternalLoginButtons .wcTwitterLoginButton:visited {
+	color: #fff; text-decoration: none;
+}
+
+.wcContainer .wcExternalLoginButtons .wcFacebookLoginButton {
+	background: #507cc0 url('../gfx/icons/facebook.png') 12px center no-repeat; display: inline-block; color: #fff; padding: 20px 50px; text-decoration: none; border-radius: 7px; font-size: 1.3em;
+}
+.wcContainer .wcExternalLoginButtons .wcFacebookLoginButton:hover, .wcContainer .wcExternalLoginButtons .wcFacebookLoginButton:visited {
+	color: #fff; text-decoration: none;
+}
+
+/* Error log container styles: */
+.wcContainer .wcVisualLogger .wcVisualLoggerInner {
+	overflow-y: auto; max-height: 150px; overflow-x: hidden;
+}
+
+.wcContainer .wcVisualLogger .wcVisualLoggerInner .wcVisualLoggerMessage {
+	padding: 5px 25px 5px 5px; position: relative;
+}
+
+.wcContainer .wcVisualLogger .wcVisualLoggerInner .wcVisualLoggerMessage button {
+	position: absolute; top: 50%; right: 10px; transform: translateY(-50%);
+	padding: 0; background: 0; border: 0; width: 20px; height: 20px;  line-height: 8px;
+	color: #000; border-radius: 50%; background: #FFF; text-align: center;
+	background: #FFF url(../gfx/icons/x.svg) no-repeat 50%; border: 1px solid #A6A6A6; 
+}
+.wcContainer .wcVisualLogger .wcVisualLoggerInner .wcVisualLoggerMessage button span {
+	font-size: 11px; display: block; text-indent: -5000px;
+}
+.wcContainer .wcVisualLogger .wcVisualLoggerInner .wcVisualLoggerMessage button:hover {
+	background-color: #e3e3e3;
+}
+.wcContainer .wcVisualLogger .wcVisualLoggerInner .wcVisualLoggerInfoMessage {
+	color: #31708f; background: #bce8f1;
+}
+
+.wcContainer .wcVisualLogger .wcVisualLoggerInner .wcVisualLoggerErrorMessage {
+	color: #3c0604; background: #ffb0ae;
+}
+
+
+
+/* Sidebar mode styles */
+
+.wcSidebarMode .wcDebug {
+	height: 200px; max-width: 400px; position: fixed; left: 0; bottom: 0;
+	z-index: 300010;
+}
+
+.wcSidebarMode .wcUsersList {
+	width: 200px;
+	position: fixed; right: 0; top: 0; bottom: 0; overflow-y: hidden; height: auto;
+	z-index: 300000; background-color: inherit; 
+	padding: 0;
+}
+
+.wcSidebarMode .wcUserListTitle {
+	width: 200px; padding: 2px 10px; padding-right: 20px;
+	position: fixed; right: 0; top: 0; overflow: hidden; height: auto;
+	z-index: 300000; background-color: inherit;
+}
+
+.wcSidebarMode .wcUserListTitle .wcUserListMinMaxLink {
+	outline: none; display: inline-block; text-decoration: none;
+	background: transparent url('../gfx/icons/minus.svg') center center no-repeat;
+	position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+	width: 26px; height: 26px; margin: auto;
+}
+
+.wcSidebarMode .wcUserListTitle .wcUserListMinimized {
+	background: transparent url('../gfx/icons/plus.svg') center center no-repeat;
+}
+
+.wcSidebarMode .wcMessages {
+	width: 400px; position: fixed; z-index: 300000; padding: 5px;
+}
+
+
+
+.wcSidebarMode .wcControls {
+	position: fixed; z-index: 300000; padding: 7px;
+	border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf;
+	background-color: inherit;
+}
+
+.wcSidebarMode .wcModalBackgroundLayer {
+	position: fixed;
+}
+
+.wcSidebarMode .wcWindowTitle, .wcSidebarMode .wcUsersCounter, .wcSidebarMode .wcCustomizations, .wcSidebarMode .wcVisualLogger {
+	position: fixed; z-index: 300000; background-color: inherit;
+}
+
+.wcSidebarMode .wcVisualLogger {
+	z-index: 300010;
+}
+
+.wcSidebarMode .wcCustomizations {
+	border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf;
+	padding: 0 5px 5px 5px;
+}
+
+.wcSidebarMode .wcCustomizations a {
+	outline: none;
+}
+
+.wcSidebarMode .wcCustomizationsOpen {
+	border-top: 1px solid #dfdfdf;
+}
+
+.wcSidebarMode .wcUsersCounter {
+	border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf;
+	padding: 5px 5px 0 5px;
+}
+ 
+.wcContainer.wcSidebarMode .wcUserListTitle,
+.wcContainer.wcSidebarMode .wcWindowTitle {
+	cursor: pointer; 
+	padding: 5px 10px; font-size: 16px; line-height: 1.8;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	
+	
+}
+.wcContainer.wcSidebarMode .wcWindowTitle.wcWindowTitleActive,
+.wcSidebarMode .wcWindowTitleActive {
+	border-top: 2px solid #111; color: #111;
+}
+
+.wcSidebarMode .wcWindowTitle .wcWindowTitleMinMaxLink {
+	background: transparent url('../gfx/icons/minus.svg') center center no-repeat;
+	position: absolute; 
+	right: 8px; top: 50%; transform: translateY(-50%);
+	margin: auto;
+	padding: 0;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.wcSidebarMode .wcWindowTitle .wcWindowTitleMinimized {
+	background: transparent url('../gfx/icons/plus.svg') center center no-repeat;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs {
+	background-color: inherit;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs .wcMessagesContainerTab {
+	position: fixed; z-index: 300000; display: block;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs .wcMessagesContainerTabCloseLink {
+	position: absolute; 
+	border: 0;
+	right: 8px; top: 50%; transform: translateY(-50%);
+	margin: 0 !important;
+	padding: 0;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs .wcMessagesContainerTabMinMaxLink {
+	background: transparent url('../gfx/icons/minus.svg') center center no-repeat;
+	position: absolute; 
+	right: 28px; top: 50%; transform: translateY(-50%);
+	margin: auto;
+	padding: 0;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.wcSidebarMode .wcMessagesContainerTab a.wcMessagesContainerTabLink, .wcSidebarMode .wcMessagesContainerTab a.wcMessagesContainerTabLink:visited {
+	max-width: 75%;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs .wcMessagesContainerTabMinimized .wcMessagesContainerTabMinMaxLink {
+	background: transparent url('../gfx/icons/plus.svg') center center no-repeat;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs .wcWindowTitleActive {
+	border-top: 2px solid #111; color: #111;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs .wcWindowTitleActive a {
+	color: #111;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs > .wcWindowTitleActive {
+	width: auto; text-align: left; padding: 5px 10px;
+}
+
+.wcSidebarMode .wcMessagesContainersTabs {
+	border: none;
+	padding: 0;
+}
+
+.wcSidebarMode .wcWindowContent {
+	z-index: 300000;
+	position: fixed; width: 400px; right: 0; bottom: 0;
+	background-color: inherit;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	border-top: 1px solid #DFDFDF;
+}
+
+.wcSidebarMode .wcSidebarModeMobileNavigation {
+	z-index: 300009; position: fixed; bottom: 0; left: 0; display: none; background-color: inherit;
+	border-top: 1px solid #dfdfdf; width: 100%;
+}
+
+.wcSidebarMode .wcSidebarModeMobileNavigationButton, .wcSidebarMode .wcSidebarModeMobileNavigationButton:focus {
+	width: 40px; height: 40px; padding: 2px 10px;
+	float: right; outline: none; text-decoration: none !important;
+	border-left: 1px solid #dfdfdf;
+}
+
+.wcSidebarMode .wcSidebarModeMobileNavigationButton:active, .wcSidebarModeUsersListTogglerEnabled .wcSidebarModeMobileNavigationButton {
+	background-color: #dfdfdf; text-decoration: none;
+}
+
+.wcSidebarMode .wcSidebarModeUsersListToggler {
+	float: right;
+	border-left: 1px solid #dfdfdf;
+	background: url('../gfx/icons/users.svg') center center no-repeat;
+}
+
+.wcSidebarMode .wcSidebarModeUsersListToggler:active, .wcSidebarModeUsersListTogglerEnabled .wcSidebarModeUsersListToggler {
+	background: #dfdfdf url('../gfx/icons/users.svg') center center no-repeat;
+	text-decoration: none;
+}
+
+.wcSidebarMode .wcSidebarModeWindowsNavigationLeft {
+	float: right;
+	border-left: 1px solid #dfdfdf;
+	background: url('../gfx/icons/arrow-left.svg') center center no-repeat;
+}
+
+.wcSidebarMode .wcSidebarModeWindowsNavigationRight {
+	float: right;
+	border-left: 1px solid #dfdfdf;
+	background: url('../gfx/icons/arrow-right.svg') center center no-repeat;
+}
+
+/* Sidebar mode - mobile: */
+.wcWidth600.wcUsersListEnabled .wcSidebarModeMobileNavigation {
+	display: block;
+}
+
+.wcSidebarModeUsersListTogglerEnabled .wcUsersList, .wcSidebarModeUsersListTogglerEnabled .wcCustomizations, .wcSidebarMode.wcSidebarModeUsersListTogglerEnabled .wcUsersCounter {
+	width: 100% !important; z-index: 300008;
+}
+
+.wcWidth600.wcSidebarMode .wcControls, .wcWidth600.wcSidebarMode .wcMessages {
+	width: 100% !important;
+}
+
+.wcWidth600.wcSidebarMode .wcWindowTitle, .wcWidth600.wcSidebarMode .wcWindowContent {
+	width: 100% !important;
+}
+
+.wcWidth600.wcSidebarModeUsersListTogglerEnabled .wcSidebarModeWindowsNavigationLeft, .wcWidth600.wcSidebarModeUsersListTogglerEnabled .wcSidebarModeWindowsNavigationRight {
+	display: none;
+}
+
+
+/* Recent chats layer */
+.wcContainer:not(.wcSidebarMode):not(.wcSidebarModewcWindowTitleIncluded) .wcWindowTitle {
+	position: relative;
+}
+
+
+.wcContainer a.wcRecentChatsIndicator {
+	outline: none; text-decoration: none;
+	background: url('../gfx/icons/recent-chats-inactive.svg') center center no-repeat;
+	display: none;
+	width: 26px; height: 20px;
+	position: absolute;  margin: auto; right: 15px; top: 50%; transform: translateY(-50%);
+}
+.wcContainer.wcAllowToSendMessages a.wcRecentChatsIndicator {
+	display: inline-block;
+}
+
+.wcContainer .wcSidebarModeMobileNavigation a.wcRecentChatsIndicator {
+	right: auto; left: 15px;
+}
+
+.wcContainer .wcUserListMinMaxLinkEnabled a.wcRecentChatsIndicator {
+	right: 34px;
+}
+
+.wcContainer a.wcRecentChatsIndicator:hover {
+	text-decoration: none;
+}
+
+.wcContainer a.wcRecentChatsIndicator.wcRecentChatsIndicatorActive {
+	background: url('../gfx/icons/recent-chats.svg') center center no-repeat;
+}
+
+.wcContainer a.wcRecentChatsIndicator .wcPendingChatsNumber {
+	cursor: pointer; color: #ffffff; background-color: #ff0000; font-size: .5em; line-height: 1.3em; display: inline-block; 
+	border-radius: 50%; text-align: center; position: absolute; right: 0; top: 0; width: 18px; height: 18px; padding: 1px 3px;
+	transform: translateX(50%) translateY(-50%);
+}
+
+.wcRecentChats {
+	-moz-box-sizing: border-box; box-sizing: border-box; color: #111;
+	width: 400px; max-height: 200px; overflow-y: auto; position: absolute; z-index: 300010;
+	border: 1px solid #dfdfdf; padding: 10px; line-height: 1em;
+}
+
+.wcRecentChats a, .wcRecentChats a:hover {
+	box-shadow: none !important; text-decoration: none; color: #111;
+}
+
+.wcRecentChats .wcClear {
+	clear: both; line-height: 0.1%; font-size: 0.1%; height: 0.1%;
+}
+
+.wcRecentChats.wcInvisible {
+	display: none !important;
+}
+
+.wcRecentChats .wcRecentChatsRow {
+	cursor: pointer; padding: 10px 10px;
+}
+
+.wcRecentChats .wcRecentChatsRow:hover {
+	background-color: #f7f7f7;
+}
+
+.wcRecentChats .wcPendingChat {
+	background-color: rgba(0,193,121,0.05);
+}
+
+.wcRecentChats .wcPendingChat:hover {
+	background-color: rgba(0,193,121,0.1);
+}
+
+.wcRecentChats .wcRecentChatsRow:not(:last-child) {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.wcRecentChats .wcRecentChatName {
+	font-weight: bold;
+}
+
+.wcRecentChats .wcRecentChatDate {
+	float: right; font-size: 0.8em;
+}
+
+
+.wcInfoWindow {
+	-moz-box-sizing: border-box; box-sizing: border-box; color: #111;
+	width: 350px; max-height: 200px; overflow-y: auto; position: absolute; z-index: 300010;
+	border: 1px solid #dfdfdf; 
+
+}
+
+.wcUserListInfoWindow {
+	padding: 10px; line-height: normal;
+}
+
+.wcUserListInfoWindow img.wcUserListInfoWindowAvatar {
+	border-radius: 0; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-right: 10px; max-width: 90px; float: left;
+}
+
+.wcUserListInfoWindow .wcUserListInfoWindowUserName {
+	line-height: normal;
+}
+
+.wcUserListInfoWindow .wcUserListInfoWindowRoles {
+	font-size: 0.8em; line-height: normal; color: #555;
+}
+
+.wcUserListInfoWindow .wcUserListInfoWindowPrivateMessageButton {
+	display: inline-block; margin-top: 10px;
+}
+
+
+/* ADDED ------------------------------------------------------------------------------------------------------------ */
+.wcContainer .wcControls {
+	border-top: 0; clear: both;
+}
+.wcUsersListIncluded .wcUsersList {
+	height: 200px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+	flex-flow: column;
+}
+
+.wcMessage .wcActionWrapper {
+	margin-top: -2px;
+}
+
+.wcMessage .wcAdminAction.wcMessageEditButton {
+	background-image:  url("../gfx/icons/edit.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.wcMessage .wcAdminAction.wcMessageApproveButton {
+	background: transparent url("../gfx/icons/approve.svg") no-repeat center center;
+}
+
+.wcMessage .wcAdminAction.wcEditedMessageCancelButton {
+	background: rgba(244,31,31,0.15) url("../gfx/icons/x.svg") no-repeat center center;
+	border-color: rgba(244,31,31,0.2);
+}
+.wcMessage .wcAdminAction.wcEditedMessageCancelButton:hover {
+	border-color: rgba(244,31,31,0.7);
+}
+.wcMessage .wcAdminAction.wcEditedMessageSaveButton {
+	background: rgba(0,193,121,0.15) url("../gfx/icons/approve.svg") no-repeat center center;
+	border-color: rgba(0,193,121,0.2);
+}
+.wcMessage .wcAdminAction.wcEditedMessageSaveButton:hover {
+	border-color: rgba(0,193,121,0.7);
+}
+
+
+/* MESSAGE WITH AVATAR */
+.wcMessage {
+	position: relative;
+}
+.wcMessage img.wcMessageAvatar {
+	clear: both;
+	display: block; 
+	float: left; border-radius: 50%; box-shadow: 0 0 5px inset rgba(0,0,0,0.2);
+}
+.wcContainer .wcMessages .wcMessage .wcMessageAvatar + .wcMessageContent{
+	width: calc(100% - 50px); float: right; clear: none;
+}
+
+.wcSidebarMode.wcContainer .wcControls a.wcToolButton {
+	background-color: transparent;
+}
+.wcSidebarMode.wcContainer input[type="text"].wcInput {
+	border-radius: 15px;
+}
+.wcSidebarMode.wcContainer input[type="button"].wcSubmitButton {
+	border-radius: 15px !important;
+}
+.wcSidebarMode.wcContainer .wcMessages {
+	padding: 10px;
+}
+.wcSidebarMode.wcContainer .wcMessagesContainerTab {
+	padding: 5px 10px; font-size: 16px; line-height: 1.8;
+}
+
+.wcMessage.wcMessageEditing .wcAdminAction {
+	display: none;
+}
+.wcMessage.wcMessageEditing .wcAdminAction.wcEditedMessageCancelButton,
+.wcMessage.wcMessageEditing .wcAdminAction.wcEditedMessageSaveButton  {
+	opacity: 1; display: inline-block; margin-left: 5px;
+}
+
+.wcWindowTitle + .wcTopControls + .wcOperationalSection .wcControls {
+	border-top: 1px solid #dfdfdf;
+}
+.wcWindowTitle + .wcTopControls + .wcOperationalSection .wcControls + .wcCustomizations {
+	border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; padding-left: 15px;
+}
+.wcOperationalSection + .wcMessagesContainersTabs {
+	border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; border-top: 1px solid #dfdfdf;
+}
+div.wcEmoticonsLayer, div.colorPicker-palette {
+	z-index: 999999;
+}
+
+.wcSidebarMode .wcWindowTitle, .wcSidebarMode .wcUsersCounter, .wcSidebarMode .wcCustomizations, .wcSidebarMode .wcVisualLogger {
+    position: fixed;
+    z-index: 300000;
+    background-color: inherit;
+}
+.wcScrollOff {
+	overflow: hidden;
+}
+
+.wcImagePreview {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 999999;
+	background: rgba(0,0,0,0.5);
+	padding: 5%;
+}
+.wcImagePreview.wcShow {
+	display: flex;
+}
+.wcImagePreview.wcHide {
+	display: none;
+}
+.wcImagePreview img {
+	max-height: 100%; 
+}
+
+.wcContainer .wcMessages.wcMessagesInline .wcMessage .wcMessageContent {
+	display: inline;
+}
+
+.wcContainer .wcMessages.wcMessagesInline .wcMessage .wcClear {
+	display: none;
+}
+
+.wcContainer .wcMessages.wcMessagesInline .wcMessage .wcAdminAction {
+	padding: 0px; padding-right: 1px; padding-left: 1px;
+}
+.wcContainer .wcMessages.wcMessagesInline .wcMessage .wcMessageContent {
+	width: auto; display: inline; float: none;
+}
+.wcContainer .wcMessages.wcMessagesInline .wcAdminAction {
+	opacity: 1;
+}
+
+.wcContainer .wcMessages .wcMessage {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+  
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+  
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+.wcContainer .wcMessages .wcMessage .wcMessageContent img  {
+	max-height: 55px; max-width: 55px;
+}
+/*REPLY TO */
+.wcMessage .wcAdminAction.wcReplyTo {
+	background-image:  url("../gfx/icons/reply.svg");
+}
+.wcControlQuote {
+	position: relative; padding: 5px 0 5px 25px; margin-bottom: 5px; border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.wcControlQuote:before {
+	content: ''; width: 20px; height: 20px; display: block; position: absolute; left: 0px; top: 50%; transform:  translateY(-50%); background:  url("../gfx/icons/quote.svg") 0 0 no-repeat; border-radius: 50%; 
+}
+.wcContainer .wcControlQuote { font-size: 11px; color: #A6A6A6; }
+.wcContainer .wcControlQuote .wcMessageUser { font-weight: bold; font-style: italic; }
+.wcContainer .wcControlQuote .wcMessageContent { font-style: italic; }
+.wcContainer .wcMessages .wcMessage .wcMessageQuoted { font-size: 11px; color: #A6A6A6; display: block; position: relative; padding-left: 15px; border-bottom: 1px solid rgba(0,0,0,0.05); margin-bottom: 5px; padding-bottom: 10px; }
+.wcContainer .wcMessages .wcMessage .wcMessageQuoted:before { content: ''; width: 12px; height: 12px; display: block; position: absolute; left: 0px; top: 5px; background:  url("../gfx/icons/quote.svg") 0 0 no-repeat; border-radius: 50%; background-size: 12px; }
+.wcContainer .wcMessages .wcMessage .wcMessageQuoted .wcMessageUser { float: none; display: inline-block;  font-size: 11px; color: #66696e;  font-style: italic; font-weight: bold; margin-right: 0; line-height: 11px; } 
+.wcContainer .wcMessages .wcMessage .wcMessageQuoted .wcMessageContent { display: inline-block; padding: 0; background: transparent; box-shadow: none;  font-size: 11px; color: #66696e;  font-style: italic; }
+

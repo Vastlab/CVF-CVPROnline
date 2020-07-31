@@ -1,0 +1,156 @@
+html, body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #333333;
+    background-color: #FFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+h4 {
+    color: #874B4B;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.hero a, .hero a:visited,
+.site-content-contain a, .site-content-contain a:visited {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #DF5203;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero a:hover,
+.site-content-contain a:hover {
+    color: #23527c;
+}
+
+.bg-grey {
+    color: white;
+    background-color: #333333;
+}
+
+.light-grey {
+    background-color: #f4f4f4;
+}
+
+.inner-col-content {
+    padding: 2rem 1rem;
+}
+
+footer.site-footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.site-footer__social a {
+    font-size: 32px;
+    color: #333333;
+    display: inline-block;
+}
+
+.site-footer__social a:hover {
+    opacity: 0.6;
+}
+
+.site-footer__social i {
+    display: block;
+    width:32px;
+    height: 32px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-facebook {
+    background-image: url('../img/facebook.svg');
+}
+
+.icon-twitter {
+    background-image: url('../img/twitter.svg');
+}
+
+.icon-instagram {
+    background-image: url('../img/instagram.svg');
+}
+
+.table tr {
+    border-bottom: 1px solid #ccc;
+    padding: 0.1em 0.6em;
+    background: transparent;
+}
+
+.table tr th {
+    background: transparent;
+    border-bottom-style: none;
+}
+
+.table>thead>tr>th, .table>thead>tr>td, .table>tbody>tr>th, .table>tbody>tr>td, .table>tfoot>tr>th, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table>tbody>tr.blue-bottom>th {
+    color: #874B4B;
+    padding-bottom: 0;
+    border-top: 0;
+    border-bottom: 2px solid #874B4B;
+    padding-left: 0;
+}
+
+tr.blue-bottom {
+    border-top: 0;
+}
+
+.table>tbody>tr.blue-bottom>th>h4 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.site-header {
+    position: relative;
+    z-index: 1;
+}
+
+.hero .col-sm-9 {
+    min-height: 300px;
+}
+
+.home .entry-header {
+    display: none !important;
+}
+
+#top-menu .menu-item a {
+    color: rgba(0,0,0,.5);
+}
+
+.sub-menu {
+    z-index: 999;
+}
+
+.navbar-brand {
+    width: 300px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+@media screen and (min-width: 1420px) {
+    #top-menu {
+        display: flex;
+        align-items: flex-start;
+    }
+}

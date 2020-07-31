@@ -1,0 +1,145 @@
+#ect-calendar-wrapper {
+    display:inline-block;
+    width:100%;
+    height:auto;
+}
+.ect-calendar-menu {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 12px;
+    padding: 0;
+}
+.ect-calendar-cat-filter {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#ect-calendar-wrapper .ect-calendar-cat-filter label {
+    display: inline;
+    padding-left: 24px;
+    position: relative;
+    margin-right: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.ect-calendar-cat-filter input{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+.ect-calendar-cat-filter .cat-checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+.ect-calendar-cat-filter:hover input ~ .cat-checkmark {
+    background-color: #ccc;
+}
+.ect-calendar-cat-filter input:checked ~ .cat-checkmark {
+    background-color: #2196F3;
+}
+.ect-calendar-cat-filter .cat-checkmark:after {
+    left: 7px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+}
+.ect-calendar-cat-filter input:checked ~ .cat-checkmark:after {
+    display: block;
+}
+
+.ect-calendar-menu .ect-calendar_btn {
+    height: 30px;
+    width: 90px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0px;
+    background: white;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.ect-calendar-menu i.ect-calendar_btn {
+    width: 24px;
+}
+.ect-calendar-menu .ect-calendar_btn:hover {
+    background: #eee;
+}
+.ect-calendar-menu i.ect-calendar_btn:before,
+.ect-calendar-menu i.ect-calendar_btn:after {
+    vertical-align: middle;
+}
+.ect-calendar-menu .ect_renderRange {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+#ect-calendar-wrapper select.ect-calendar-select {
+    display: inline-block;
+    max-width: 110px;
+    float: right;
+    margin: 0;
+    padding: 4px;
+    height: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.ect-calendar-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.ect_calendar_events_spinner {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 99;
+    left: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tui-full-calendar-month{
+    height: 450px;
+}
+
+
+.tui-full-calendar-popup-detail .tui-full-calendar-popup-container {
+    line-height: normal;
+}
+div[class^="tui-view"][data-panel-index="2"] {
+    height: auto !IMPORTANT;
+}

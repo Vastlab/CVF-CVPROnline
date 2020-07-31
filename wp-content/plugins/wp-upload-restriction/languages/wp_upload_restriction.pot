@@ -1,0 +1,75 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Upload Restriction\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sajjad Hossain <msh134@gmail.com>\n"
+"Language-Team: Sajjad Hossain <msh134@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+msgid "Select the extensions for allowing file upload"
+msgstr ""
+
+msgid "Files with selected types will be allowed for uploading."
+msgstr ""
+
+msgid "Allowed File Types"
+msgstr ""
+
+msgid "Allowed Upload Size"
+msgstr ""
+
+msgid "Restrict upload size to"
+msgstr ""
+
+msgid "Check the box below and enter value in the field to restrict upload size for the selected role."
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Settings could not be saved."
+msgstr ""
+
+msgid "Roles"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Restrictions"
+msgstr ""
+
+msgid "Custom File Types"
+msgstr ""
+
+msgid "Extenstions"
+msgstr ""
+
+msgid "MIME Type"
+msgstr ""
+
+msgid "Add Type"
+msgstr ""
+
+msgid "No custom types found."
+msgstr ""
+
+msgid "MIME Type field is required"
+msgstr ""
+
+msgid "Extensions field is required"
+msgstr ""
+
+msgid "Required information is missing."
+msgstr ""
+
+msgid "Enter the file extension here. If there are multiple extensions then seperate them with \"|\". Example, \"jpg|jpeg\"."
+msgstr ""

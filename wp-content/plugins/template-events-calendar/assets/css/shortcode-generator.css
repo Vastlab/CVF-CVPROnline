@@ -1,0 +1,14 @@
+i.ect-own-icon {
+    background-image: url('ect-icon.png');
+}
+
+/* Other admin side css */
+span.ectadmin-description img {
+    width: 22px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.mce-container .ect-note {
+    color:red !Important;
+}

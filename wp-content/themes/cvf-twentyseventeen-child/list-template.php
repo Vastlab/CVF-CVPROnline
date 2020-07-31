@@ -1,0 +1,1 @@
+../../plugins/the-events-calendar-templates-and-shortcode/templates/list-template.php

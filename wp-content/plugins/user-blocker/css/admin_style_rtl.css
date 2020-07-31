@@ -1,0 +1,96 @@
+.tab_parent,
+.filter_div,
+.block_msg_note_div,
+.block_msg_left,
+.tab_parent_parent {
+	float: right;
+}
+.wp-core-ui .button-primary {
+    float: right !important;
+}
+.ui-timepicker-list li {
+    text-align: left;
+}
+.cover_form {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.tab_parent ul li:first-child a {
+    border-radius: 0px 5px 0px 0;
+}
+.tab_parent a {
+    border-left: 1px solid #cccccc;
+}
+.tab_parent ul li:last-child a {
+    border-radius: 5px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1200px) { 
+    #blocked-list .cover_form {
+        overflow-x: scroll;
+    }
+    table.fixed {
+        table-layout: auto;
+    }
+    .wrap #username {
+        display: inline-block !important;
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tbl-timing h3 {
+        margin-bottom: 10px;
+    }
+
+    .block_msg_left {
+        display: inline-block;
+        width: 100%;
+    }
+    .block_msg_left textarea {
+        display: inline-block;
+        width: 100% !important;
+    }
+    .form-table.tbl-timing {
+        display: inline-block;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .form-table.tbl-timing td,
+    .form-table.tbl-timing th {
+        display: table-cell;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cover_form {
+        width: 65%;
+    }
+    .td-admin-sidebar {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover_form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .td-admin-sidebar {
+        width: 100%;
+    }
+    .tab_parent_parent {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tab_parent li {
+        display: inline-block;
+        width: 100%;
+    }
+    
+}

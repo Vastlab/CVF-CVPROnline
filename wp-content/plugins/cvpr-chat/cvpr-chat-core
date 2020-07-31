@@ -1,0 +1,163 @@
+<?php
+/*
+	Plugin Name: CVPR Chat
+	Version: 2.8.3
+	Plugin URI: https://kaine.pl/projects/wp-plugins/Cvpr-chat/Cvpr-chat-donate
+	Description: Fully-featured chat plugin for WordPress. It requires no server, supports multiple channels, bad words filtering, themes, appearance settings, filters, bans and more.
+	Author: Kainex
+	Author URI: https://kaine.pl
+*/
+
+require_once(dirname(__FILE__).'/src/CVPRChatContainer.php');
+CVPRChatContainer::load('CVPRChatInstaller');
+CVPRChatContainer::load('CVPRChatOptions');
+
+if (CVPRChatOptions::getInstance()->isOptionEnabled('enabled_debug', false)) {
+	error_reporting(E_ALL);
+	ini_set("display_errors", 1);
+}
+
+if (is_admin()) {
+	// installer:
+	register_activation_hook(__FILE__, array('CVPRChatInstaller', 'activate'));
+	register_deactivation_hook(__FILE__, array('CVPRChatInstaller', 'deactivate'));
+	register_uninstall_hook(__FILE__, array('CVPRChatInstaller', 'uninstall'));
+
+    /** @var CVPRChatSettings $settings */
+	$settings = CVPRChatContainer::get('CVPRChatSettings');
+    // initialize plugin settings page:
+	$settings->initialize();
+}
+
+// register action that detects when WordPress user logs in / logs out:
+function Cvpr_chat_after_setup_theme_action() {
+    /** @var CVPRChatUserService $userService */
+	$userService = CVPRChatContainer::get('services/user/CVPRChatUserService');
+	$userService->initMaintenance();
+	$userService->switchUser();
+}
+add_action('after_setup_theme', 'Cvpr_chat_after_setup_theme_action');
+
+// register CSS file in HEAD section:
+function Cvpr_chat_register_common_css() {
+	$pluginBaseURL = plugin_dir_url(__FILE__);
+	wp_enqueue_style('Cvpr_chat_core', $pluginBaseURL.'css/Cvpr_chat.css');
+}
+add_action('wp_enqueue_scripts', 'Cvpr_chat_register_common_css');
+
+// register chat shortcode:
+function Cvpr_chat_shortcode($atts) {
+	$CvprChat = CVPRChatContainer::get('CVPRChat');
+	$html = $CvprChat->getRenderedShortcode($atts);
+	$CvprChat->registerResources();
+    return $html;
+}
+add_shortcode('Cvpr-chat', 'Cvpr_chat_shortcode');
+
+// register chat channel stats shortcode:
+function Cvpr_chat_channel_stats_shortcode($atts) {
+	$CvprChatStatsShortcode = CVPRChatContainer::get('CVPRChatStatsShortcode');
+	return $CvprChatStatsShortcode->getRenderedChannelStatsShortcode($atts);
+}
+add_shortcode('Cvpr-chat-channel-stats', 'Cvpr_chat_channel_stats_shortcode');
+
+// chat function:
+function Cvpr_chat($channel = null) {
+	$CvprChat = CVPRChatContainer::get('CVPRChat');
+	echo $CvprChat->getRenderedChat($channel);
+	$CvprChat->registerResources();
+}
+
+// register chat widget:
+function Cvpr_chat_widget() {
+	CVPRChatContainer::get('CVPRChatWidget');
+	return register_widget("CVPRChatWidget");
+}
+add_action('widgets_init', 'Cvpr_chat_widget');
+
+// register channel users widget:
+function Cvpr_chat_widget_channel_users() {
+	CVPRChatContainer::get('CVPRChatWidgetChannelUsers');
+	return register_widget("CVPRChatWidgetChannelUsers");
+}
+add_action('widgets_init', 'Cvpr_chat_widget_channel_users');
+
+// register action that auto-removes images generate by the chat (the additional thumbnail):
+function Cvpr_chat_action_delete_attachment($attachmentId) {
+	$CvprChatImagesService = CVPRChatContainer::get('services/CVPRChatImagesService');
+	$CvprChatImagesService->removeRelatedImages($attachmentId);
+}
+add_action('delete_attachment', 'Cvpr_chat_action_delete_attachment');
+
+
+function Cvpr_chat_panels_plugin_action_links($links) {
+	unset( $links['edit'] );
+	$links[] = '<a href="https://kaine.pl/projects/wp-plugins/Cvpr-chat-pro/" style="font-weight: bold; color: #ff0000;">Update to CVPR Chat PRO</a>';
+
+	return $links;
+}
+add_action('plugin_action_links_' . plugin_basename(__FILE__), 'Cvpr_chat_panels_plugin_action_links');
+
+// Endpoints fo AJAX requests:
+function Cvpr_chat_endpoint_messages() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->messagesEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_messages_endpoint", 'Cvpr_chat_endpoint_messages');
+add_action("wp_ajax_Cvpr_chat_messages_endpoint", 'Cvpr_chat_endpoint_messages');
+
+function Cvpr_chat_endpoint_message() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->messageEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_message_endpoint", 'Cvpr_chat_endpoint_message');
+add_action("wp_ajax_Cvpr_chat_message_endpoint", 'Cvpr_chat_endpoint_message');
+
+function Cvpr_chat_endpoint_message_delete() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->messageDeleteEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_delete_message_endpoint", 'Cvpr_chat_endpoint_message_delete');
+add_action("wp_ajax_Cvpr_chat_delete_message_endpoint", 'Cvpr_chat_endpoint_message_delete');
+
+function Cvpr_chat_endpoint_user_ban() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->userBanEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_user_ban_endpoint", 'Cvpr_chat_endpoint_user_ban');
+add_action("wp_ajax_Cvpr_chat_user_ban_endpoint", 'Cvpr_chat_endpoint_user_ban');
+
+function Cvpr_chat_endpoint_user_kick() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->userKickEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_user_kick_endpoint", 'Cvpr_chat_endpoint_user_kick');
+add_action("wp_ajax_Cvpr_chat_user_kick_endpoint", 'Cvpr_chat_endpoint_user_kick');
+
+function Cvpr_chat_endpoint_spam_report() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->spamReportEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_spam_report_endpoint", 'Cvpr_chat_endpoint_spam_report');
+add_action("wp_ajax_Cvpr_chat_spam_report_endpoint", 'Cvpr_chat_endpoint_spam_report');
+
+function Cvpr_chat_endpoint_maintenance() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->maintenanceEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_maintenance_endpoint", 'Cvpr_chat_endpoint_maintenance');
+add_action("wp_ajax_Cvpr_chat_maintenance_endpoint", 'Cvpr_chat_endpoint_maintenance');
+
+function Cvpr_chat_endpoint_settings() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->settingsEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_settings_endpoint", 'Cvpr_chat_endpoint_settings');
+add_action("wp_ajax_Cvpr_chat_settings_endpoint", 'Cvpr_chat_endpoint_settings');
+
+function Cvpr_chat_endpoint_prepare_image() {
+	$CvprChatEndpoints = CVPRChatContainer::get('endpoints/CVPRChatEndpoints');
+	$CvprChatEndpoints->prepareImageEndpoint();
+}
+add_action("wp_ajax_nopriv_Cvpr_chat_prepare_image_endpoint", 'Cvpr_chat_endpoint_prepare_image');
+add_action("wp_ajax_Cvpr_chat_prepare_image_endpoint", 'Cvpr_chat_endpoint_prepare_image');

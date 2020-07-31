@@ -1,0 +1,2500 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Carousel Pro\n"
+"POT-Creation-Date: 2019-05-23 12:35+0600\n"
+"PO-Revision-Date: 2019-05-23 12:36+0600\n"
+"Last-Translator: \n"
+"Language-Team: ShapedPlugin\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;esc_html__;"
+"esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;number_format_i18n;"
+"date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-wp-carousel-pro-admin.php:108 admin/views/metabox-config.php:514
+msgid "Image Link"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:111
+msgid "Link the image to the URL. Only for WordPress Carousel Pro"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:112
+msgid "Error WP Carousel linking meta."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:146
+#: admin/class-wp-carousel-pro-admin.php:149
+msgid "Carousel updated."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:150
+#, php-format
+msgid "Carousel restored to revision from %s"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:151
+msgid "Carousel published."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:152
+msgid "Carousel saved."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:153
+msgid "Carousel submitted."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:154
+#, php-format
+msgid "Carousel scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:154
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:155
+msgid "Carousel draft updated."
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:167
+msgid "Carousel Title"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:168
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:169 admin/views/metabox-config.php:40
+msgid "Carousel Type"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:170 admin/views/metabox-config.php:560
+msgid "Date"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:204
+msgid "No shortcode to duplicate has been supplied!"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:288
+msgid "Carousel duplication failed, could not find original carousel: "
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:301
+msgid "Duplicate"
+msgstr ""
+
+#: admin/class-wp-carousel-pro-admin.php:316
+#, php-format
+msgid ""
+"If you like <strong>WordPress Carousel Pro</strong>, please leave us a <a "
+"href=\"%s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> "
+"rating. Your Review is very important to us as it helps us to grow more. "
+msgstr ""
+
+#: admin/views/help.php:49
+msgid "WP Carousel Help"
+msgstr ""
+
+#: admin/views/help.php:49
+msgid "Help"
+msgstr ""
+
+#: admin/views/help.php:64
+msgid "Welcome to WordPress Carousel Pro ! "
+msgstr ""
+
+#: admin/views/help.php:67
+msgid ""
+"Thank you for installing WordPress Carousel Pro! You're now running the most "
+"popular WordPress Carousel plugin.\n"
+"This video will help you get started with the plugin."
+msgstr ""
+
+#: admin/views/help.php:83
+msgid "Need any Assistance?"
+msgstr ""
+
+#: admin/views/help.php:84
+msgid "Our Expert Support Team is always ready to help you out promptly."
+msgstr ""
+
+#: admin/views/help.php:85
+msgid "Contact Support"
+msgstr ""
+
+#: admin/views/help.php:91
+msgid "Looking for Documentation?"
+msgstr ""
+
+#: admin/views/help.php:92
+msgid ""
+"We have detailed documentation on every aspects of WordPress Carousel Pro."
+msgstr ""
+
+#: admin/views/help.php:93
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/help.php:99
+msgid "Like This Plugin?"
+msgstr ""
+
+#: admin/views/help.php:100
+msgid "If you like WordPress Carousel Pro, please leave us a 5 star rating."
+msgstr ""
+
+#: admin/views/help.php:101
+msgid "Rate The Plugin"
+msgstr ""
+
+#: admin/views/help.php:110
+msgid "Take your website beyond the typical with more premium plugins!"
+msgstr ""
+
+#: admin/views/help.php:111
+msgid "Some more premium plugins are ready to make your website awesome."
+msgstr ""
+
+#: admin/views/help.php:119
+msgid "WooCommerce Product Slider Pro"
+msgstr ""
+
+#: admin/views/help.php:120
+msgid ""
+"WooCommerce Product Slider Pro is an amazing product slider to slide your "
+"Products in a tidy and professional way. It allows you to create easily "
+"attractive product slider on your website."
+msgstr ""
+
+#: admin/views/help.php:121 admin/views/help.php:133 admin/views/help.php:144
+msgid "View Details"
+msgstr ""
+
+#: admin/views/help.php:131
+msgid "Testimonial Pro"
+msgstr ""
+
+#: admin/views/help.php:132
+msgid ""
+"Testimonial Pro is a clean, easy-to-use and powerful testimonials management "
+"system for WordPress. This plugin will help you to display attractive and "
+"eye catching Unlimited testimonials."
+msgstr ""
+
+#: admin/views/help.php:142
+msgid "WooCommerce Category Slider Pro"
+msgstr ""
+
+#: admin/views/help.php:143
+msgid ""
+"WooCommerce Category Slider Pro offers you to showcase your WooCommerce "
+"products categories aesthetically."
+msgstr ""
+
+#: admin/views/help.php:166
+msgid "Create Carousel"
+msgstr ""
+
+#: admin/views/metabox-config.php:16 admin/views/metabox-config.php:2022
+#: admin/views/option-config.php:22
+msgid "WordPress Carousel Pro"
+msgstr ""
+
+#: admin/views/metabox-config.php:44 admin/views/metabox-config.php:1432
+msgid "Image"
+msgstr ""
+
+#: admin/views/metabox-config.php:48
+msgid "Post"
+msgstr ""
+
+#: admin/views/metabox-config.php:52
+msgid "Product"
+msgstr ""
+
+#: admin/views/metabox-config.php:56 admin/views/metabox-config.php:255
+msgid "Content"
+msgstr ""
+
+#: admin/views/metabox-config.php:60 admin/views/metabox-config.php:297
+msgid "Video"
+msgstr ""
+
+#: admin/views/metabox-config.php:70
+msgid "ADD IMAGE"
+msgstr ""
+
+#: admin/views/metabox-config.php:71
+msgid "EDIT IMAGE"
+msgstr ""
+
+#: admin/views/metabox-config.php:72
+msgid "REMOVE ALL"
+msgstr ""
+
+#: admin/views/metabox-config.php:79 admin/views/metabox-config.php:84
+msgid "Select Post Type"
+msgstr ""
+
+#: admin/views/metabox-config.php:80
+msgid "Select a post type to display the posts from."
+msgstr ""
+
+#: admin/views/metabox-config.php:93
+msgid "Display Posts From"
+msgstr ""
+
+#: admin/views/metabox-config.php:94
+msgid "Select an option to display the posts."
+msgstr ""
+
+#: admin/views/metabox-config.php:96
+msgid "Latest"
+msgstr ""
+
+#: admin/views/metabox-config.php:97
+msgid "Taxonomy"
+msgstr ""
+
+#: admin/views/metabox-config.php:98
+msgid "Specific Posts"
+msgstr ""
+
+#: admin/views/metabox-config.php:108
+msgid "Select Taxonomy"
+msgstr ""
+
+#: admin/views/metabox-config.php:109
+msgid "Choose the taxonomy."
+msgstr ""
+
+#: admin/views/metabox-config.php:117
+msgid "Choose Term(s)"
+msgstr ""
+
+#: admin/views/metabox-config.php:118
+msgid "Choose the taxonomy term(s) to show the posts from."
+msgstr ""
+
+#: admin/views/metabox-config.php:125
+msgid "Select Term(s)"
+msgstr ""
+
+#: admin/views/metabox-config.php:133 admin/views/metabox-config.php:230
+msgid "Operator"
+msgstr ""
+
+#: admin/views/metabox-config.php:134
+msgid "Choose the taxonomy term(s) operator."
+msgstr ""
+
+#: admin/views/metabox-config.php:136
+msgid "IN - Show posts which associate with one or more terms"
+msgstr ""
+
+#: admin/views/metabox-config.php:137
+msgid "AND - Show posts which match all terms"
+msgstr ""
+
+#: admin/views/metabox-config.php:138
+msgid "NOT IN - Show posts which don't match the terms"
+msgstr ""
+
+#: admin/views/metabox-config.php:146
+msgid "Total Posts"
+msgstr ""
+
+#: admin/views/metabox-config.php:147
+msgid "Number of total posts to show. Default value is 10."
+msgstr ""
+
+#: admin/views/metabox-config.php:156
+msgid "Select Posts"
+msgstr ""
+
+#: admin/views/metabox-config.php:157
+msgid "Choose the posts to display."
+msgstr ""
+
+#: admin/views/metabox-config.php:162
+msgid "Choose Posts"
+msgstr ""
+
+#: admin/views/metabox-config.php:178
+msgid "Display Product From"
+msgstr ""
+
+#: admin/views/metabox-config.php:179
+msgid "Select an option to display the products."
+msgstr ""
+
+#: admin/views/metabox-config.php:181
+msgid "Latest Product"
+msgstr ""
+
+#: admin/views/metabox-config.php:182
+msgid "Product Category"
+msgstr ""
+
+#: admin/views/metabox-config.php:183
+msgid "Specific Product"
+msgstr ""
+
+#: admin/views/metabox-config.php:192
+msgid "Select Product"
+msgstr ""
+
+#: admin/views/metabox-config.php:193
+msgid "Choose the products to display. Search option is available."
+msgstr ""
+
+#: admin/views/metabox-config.php:205
+msgid "Choose Product"
+msgstr ""
+
+#: admin/views/metabox-config.php:211
+msgid "Category Term(s)"
+msgstr ""
+
+#: admin/views/metabox-config.php:212
+msgid "Choose the product category term(s)."
+msgstr ""
+
+#: admin/views/metabox-config.php:220
+msgid "Choose term(s)"
+msgstr ""
+
+#: admin/views/metabox-config.php:231
+msgid "Select the category term operator."
+msgstr ""
+
+#: admin/views/metabox-config.php:233
+msgid "IN - Show products which associate with one or more terms"
+msgstr ""
+
+#: admin/views/metabox-config.php:234
+msgid "AND - Show products which match all terms"
+msgstr ""
+
+#: admin/views/metabox-config.php:235
+msgid "NOT IN - Show products which don't match the terms"
+msgstr ""
+
+#: admin/views/metabox-config.php:244
+msgid "Total Products"
+msgstr ""
+
+#: admin/views/metabox-config.php:245
+msgid "Number of total products to display. Default value is 10."
+msgstr ""
+
+#: admin/views/metabox-config.php:256
+msgid "Add Content"
+msgstr ""
+
+#: admin/views/metabox-config.php:258 admin/views/metabox-config.php:266
+msgid "Slide Content"
+msgstr ""
+
+#: admin/views/metabox-config.php:273
+msgid "Slide Background & Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:295
+msgid "Videos"
+msgstr ""
+
+#: admin/views/metabox-config.php:296
+msgid "Add Video"
+msgstr ""
+
+#: admin/views/metabox-config.php:305
+msgid "YouTube."
+msgstr ""
+
+#: admin/views/metabox-config.php:306
+msgid "Vimeo."
+msgstr ""
+
+#: admin/views/metabox-config.php:307
+msgid "Dailymotion."
+msgstr ""
+
+#: admin/views/metabox-config.php:308
+msgid "Self-Hosted."
+msgstr ""
+
+#: admin/views/metabox-config.php:309
+msgid "Image Only"
+msgstr ""
+
+#: admin/views/metabox-config.php:316
+msgid "Video ID"
+msgstr ""
+
+#: admin/views/metabox-config.php:317
+msgid ""
+"The last part of the URL is the ID e.g //vimeo.com/<code>95746815</"
+"code><br>//youtube.com/watch?v=<code>eKFTSSKCzWA</code>"
+msgstr ""
+
+#: admin/views/metabox-config.php:326
+msgid "Thumbnail Image"
+msgstr ""
+
+#: admin/views/metabox-config.php:327
+msgid "Upload Image"
+msgstr ""
+
+#: admin/views/metabox-config.php:328 admin/views/metabox-config.php:338
+#: admin/views/wpcpro-metabox/fields/media/media.php:24
+#: admin/views/wpcpro-metabox/fields/upload/upload.php:22
+msgid "Remove"
+msgstr ""
+
+#: admin/views/metabox-config.php:329
+msgid "No image selected"
+msgstr ""
+
+#: admin/views/metabox-config.php:335 admin/views/metabox-config.php:337
+msgid "Upload Video"
+msgstr ""
+
+#: admin/views/metabox-config.php:339
+msgid "No video selected"
+msgstr ""
+
+#: admin/views/metabox-config.php:346
+msgid "Click Action"
+msgstr ""
+
+#: admin/views/metabox-config.php:347
+msgid "Set action for click on this image."
+msgstr ""
+
+#: admin/views/metabox-config.php:349
+msgid "Open Link"
+msgstr ""
+
+#: admin/views/metabox-config.php:350 admin/views/metabox-config.php:1548
+msgid "Lightbox"
+msgstr ""
+
+#: admin/views/metabox-config.php:364
+msgid "Title & Description"
+msgstr ""
+
+#: admin/views/metabox-config.php:386
+msgid "Shortcode Section"
+msgstr ""
+
+#: admin/views/metabox-config.php:399
+msgid "General Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:405
+msgid "Carousel Section Title"
+msgstr ""
+
+#: admin/views/metabox-config.php:406
+msgid "Show/Hide the carousel section title."
+msgstr ""
+
+#: admin/views/metabox-config.php:408 admin/views/metabox-config.php:739
+#: admin/views/metabox-config.php:863 admin/views/metabox-config.php:1106
+#: admin/views/metabox-config.php:1117 admin/views/metabox-config.php:1128
+#: admin/views/metabox-config.php:1139 admin/views/metabox-config.php:1172
+#: admin/views/metabox-config.php:1219 admin/views/metabox-config.php:1230
+#: admin/views/metabox-config.php:1241 admin/views/metabox-config.php:1254
+#: admin/views/metabox-config.php:1265 admin/views/metabox-config.php:1283
+#: admin/views/metabox-config.php:1294 admin/views/metabox-config.php:1305
+#: admin/views/metabox-config.php:1333 admin/views/metabox-config.php:1352
+#: admin/views/metabox-config.php:1394 admin/views/metabox-config.php:1434
+msgid "Show"
+msgstr ""
+
+#: admin/views/metabox-config.php:409 admin/views/metabox-config.php:740
+#: admin/views/metabox-config.php:864 admin/views/metabox-config.php:1107
+#: admin/views/metabox-config.php:1118 admin/views/metabox-config.php:1129
+#: admin/views/metabox-config.php:1140 admin/views/metabox-config.php:1173
+#: admin/views/metabox-config.php:1220 admin/views/metabox-config.php:1231
+#: admin/views/metabox-config.php:1242 admin/views/metabox-config.php:1255
+#: admin/views/metabox-config.php:1266 admin/views/metabox-config.php:1284
+#: admin/views/metabox-config.php:1295 admin/views/metabox-config.php:1306
+#: admin/views/metabox-config.php:1334 admin/views/metabox-config.php:1353
+#: admin/views/metabox-config.php:1395 admin/views/metabox-config.php:1435
+msgid "Hide"
+msgstr ""
+
+#: admin/views/metabox-config.php:415
+msgid "Carousel Title Margin Bottom"
+msgstr ""
+
+#: admin/views/metabox-config.php:416
+msgid ""
+"Set margin bottom for the carousel section title. Default value is 30px."
+msgstr ""
+
+#: admin/views/metabox-config.php:436
+msgid "Carousel Mode"
+msgstr ""
+
+#: admin/views/metabox-config.php:437
+msgid "Set Carousel Mode. Carousel controls are disabled in the ticker mode."
+msgstr ""
+
+#: admin/views/metabox-config.php:439
+msgid "Standard"
+msgstr ""
+
+#: admin/views/metabox-config.php:440
+msgid "Ticker"
+msgstr ""
+
+#: admin/views/metabox-config.php:441 admin/views/metabox-config.php:1382
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:172
+msgid "Center"
+msgstr ""
+
+#: admin/views/metabox-config.php:448
+msgid "Slide Width"
+msgstr ""
+
+#: admin/views/metabox-config.php:449
+msgid "Set a width for the each slide."
+msgstr ""
+
+#: admin/views/metabox-config.php:467 admin/views/metabox-config.php:500
+msgid "Carousel Column(s)"
+msgstr ""
+
+#: admin/views/metabox-config.php:468
+msgid "Set number of column on devices."
+msgstr ""
+
+#: admin/views/metabox-config.php:482
+msgid "Center Padding"
+msgstr ""
+
+#: admin/views/metabox-config.php:483
+msgid "Set center mode padding."
+msgstr ""
+
+#: admin/views/metabox-config.php:501
+msgid "Set maximum & minimum column number."
+msgstr ""
+
+#: admin/views/metabox-config.php:515
+msgid "On/Off to enable and disable the image link."
+msgstr ""
+
+#: admin/views/metabox-config.php:522
+msgid "Nofollow"
+msgstr ""
+
+#: admin/views/metabox-config.php:523
+msgid "Check to add nofollow to the image link."
+msgstr ""
+
+#: admin/views/metabox-config.php:530
+msgid "Link Target Window"
+msgstr ""
+
+#: admin/views/metabox-config.php:531
+msgid "Set a target for the image link."
+msgstr ""
+
+#: admin/views/metabox-config.php:533
+msgid "Self"
+msgstr ""
+
+#: admin/views/metabox-config.php:534
+msgid "New"
+msgstr ""
+
+#: admin/views/metabox-config.php:535
+msgid "Parent"
+msgstr ""
+
+#: admin/views/metabox-config.php:536
+msgid "Top"
+msgstr ""
+
+#: admin/views/metabox-config.php:544 admin/views/metabox-config.php:556
+msgid "Order by"
+msgstr ""
+
+#: admin/views/metabox-config.php:545
+msgid "Set an order by option."
+msgstr ""
+
+#: admin/views/metabox-config.php:547
+msgid "Drag & Drop"
+msgstr ""
+
+#: admin/views/metabox-config.php:548 admin/views/metabox-config.php:561
+msgid "Random"
+msgstr ""
+
+#: admin/views/metabox-config.php:557
+msgid "Select an order by option."
+msgstr ""
+
+#: admin/views/metabox-config.php:559
+msgid "ID"
+msgstr ""
+
+#: admin/views/metabox-config.php:562
+msgid "Title"
+msgstr ""
+
+#: admin/views/metabox-config.php:563
+msgid "Modified"
+msgstr ""
+
+#: admin/views/metabox-config.php:564
+msgid "Menu Order"
+msgstr ""
+
+#: admin/views/metabox-config.php:572
+msgid "Order"
+msgstr ""
+
+#: admin/views/metabox-config.php:573
+msgid "Select an order option."
+msgstr ""
+
+#: admin/views/metabox-config.php:575
+msgid "Ascending"
+msgstr ""
+
+#: admin/views/metabox-config.php:576
+msgid "Descending"
+msgstr ""
+
+#: admin/views/metabox-config.php:584
+msgid "Preloader"
+msgstr ""
+
+#: admin/views/metabox-config.php:585
+msgid "Carousel will be hidden until page load completed."
+msgstr ""
+
+#: admin/views/metabox-config.php:598
+msgid "Carousel Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:604
+msgid "AutoPlay"
+msgstr ""
+
+#: admin/views/metabox-config.php:605
+msgid "On/Off auto play."
+msgstr ""
+
+#: admin/views/metabox-config.php:612
+msgid "AutoPlay Speed"
+msgstr ""
+
+#: admin/views/metabox-config.php:613
+msgid "Set auto play speed. Default value is 3000 milliseconds."
+msgstr ""
+
+#: admin/views/metabox-config.php:635 admin/views/metabox-config.php:654
+msgid "Pagination Speed"
+msgstr ""
+
+#: admin/views/metabox-config.php:636
+msgid "Set pagination/slide scroll speed. Default value is 600 milliseconds."
+msgstr ""
+
+#: admin/views/metabox-config.php:655
+msgid "Set pagination/slide scroll speed. Default is 8000 milliseconds."
+msgstr ""
+
+#: admin/views/metabox-config.php:673
+msgid "Slide to Scroll"
+msgstr ""
+
+#: admin/views/metabox-config.php:674
+msgid "Number of slide(s) to scroll at a time."
+msgstr ""
+
+#: admin/views/metabox-config.php:688
+msgid "Pause on Hover"
+msgstr ""
+
+#: admin/views/metabox-config.php:689
+msgid "On/Off carousel pause on hover."
+msgstr ""
+
+#: admin/views/metabox-config.php:695
+msgid "Infinite Loop"
+msgstr ""
+
+#: admin/views/metabox-config.php:696
+msgid "On/Off infinite loop mode."
+msgstr ""
+
+#: admin/views/metabox-config.php:702
+msgid "Carousel Direction"
+msgstr ""
+
+#: admin/views/metabox-config.php:703
+msgid "Set carousel direction as you need."
+msgstr ""
+
+#: admin/views/metabox-config.php:705
+msgid "Right to Left"
+msgstr ""
+
+#: admin/views/metabox-config.php:706
+msgid "Left to Right"
+msgstr ""
+
+#: admin/views/metabox-config.php:715
+msgid "Slide Effect"
+msgstr ""
+
+#: admin/views/metabox-config.php:716
+msgid "Set a sliding effect."
+msgstr ""
+
+#: admin/views/metabox-config.php:718
+msgid "Slide"
+msgstr ""
+
+#: admin/views/metabox-config.php:719
+msgid "Fade (For single column view.)"
+msgstr ""
+
+#: admin/views/metabox-config.php:729
+msgid "Navigation Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:736
+msgid "Navigation"
+msgstr ""
+
+#: admin/views/metabox-config.php:737
+msgid "Show/Hide carousel navigation."
+msgstr ""
+
+#: admin/views/metabox-config.php:741 admin/views/metabox-config.php:865
+msgid "Hide on Mobile"
+msgstr ""
+
+#: admin/views/metabox-config.php:753
+msgid "Select Position"
+msgstr ""
+
+#: admin/views/metabox-config.php:754
+msgid "Select a position for the navigation arrows."
+msgstr ""
+
+#: admin/views/metabox-config.php:756
+msgid "Top right"
+msgstr ""
+
+#: admin/views/metabox-config.php:757
+msgid "Top center"
+msgstr ""
+
+#: admin/views/metabox-config.php:758
+msgid "Top left"
+msgstr ""
+
+#: admin/views/metabox-config.php:759
+msgid "Bottom left"
+msgstr ""
+
+#: admin/views/metabox-config.php:760
+msgid "Bottom center"
+msgstr ""
+
+#: admin/views/metabox-config.php:761
+msgid "Bottom right"
+msgstr ""
+
+#: admin/views/metabox-config.php:762
+msgid "Vertically center"
+msgstr ""
+
+#: admin/views/metabox-config.php:763
+msgid "Vertically center inner"
+msgstr ""
+
+#: admin/views/metabox-config.php:764
+msgid "Vertically center inner on hover"
+msgstr ""
+
+#: admin/views/metabox-config.php:773
+msgid "Choose a Icon"
+msgstr ""
+
+#: admin/views/metabox-config.php:774
+msgid "choose a carousel navigation icon."
+msgstr ""
+
+#: admin/views/metabox-config.php:794
+msgid "Hide Border and Background"
+msgstr ""
+
+#: admin/views/metabox-config.php:795
+msgid "Hide nav arrow border and background."
+msgstr ""
+
+#: admin/views/metabox-config.php:806
+msgid "Navigation Border Radius"
+msgstr ""
+
+#: admin/views/metabox-config.php:807
+msgid "Set border radius for the navigation icons. Default value is 0."
+msgstr ""
+
+#: admin/views/metabox-config.php:827
+msgid "Navigation Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:828
+msgid "Set color for the carousel navigation."
+msgstr ""
+
+#: admin/views/metabox-config.php:830 admin/views/metabox-config.php:895
+#: admin/views/metabox-config.php:1192 admin/views/metabox-config.php:1366
+#: admin/views/metabox-config.php:1406
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:335
+msgid "Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:831 admin/views/metabox-config.php:1193
+#: admin/views/metabox-config.php:1407
+msgid "Hover Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:832 admin/views/metabox-config.php:1194
+#: admin/views/metabox-config.php:1408
+msgid "Background"
+msgstr ""
+
+#: admin/views/metabox-config.php:833 admin/views/metabox-config.php:1195
+#: admin/views/metabox-config.php:1409
+msgid "Hover Background"
+msgstr ""
+
+#: admin/views/metabox-config.php:834 admin/views/metabox-config.php:1196
+#: admin/views/metabox-config.php:1410
+msgid "Border"
+msgstr ""
+
+#: admin/views/metabox-config.php:835 admin/views/metabox-config.php:1197
+#: admin/views/metabox-config.php:1411
+msgid "Hover Border"
+msgstr ""
+
+#: admin/views/metabox-config.php:854
+msgid "Pagination Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:860
+msgid "Pagination"
+msgstr ""
+
+#: admin/views/metabox-config.php:861
+msgid "Show/Hide carousel pagination."
+msgstr ""
+
+#: admin/views/metabox-config.php:877
+msgid "Pagination Margin"
+msgstr ""
+
+#: admin/views/metabox-config.php:878
+msgid "Set margin for carousel pagination."
+msgstr ""
+
+#: admin/views/metabox-config.php:892
+msgid "Pagination Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:893
+msgid "Set color for the carousel pagination dots."
+msgstr ""
+
+#: admin/views/metabox-config.php:896
+msgid "Active Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:908
+msgid "Misc. Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:915
+msgid "Adaptive Height"
+msgstr ""
+
+#: admin/views/metabox-config.php:916
+msgid "On/Off adaptive height for the carousel."
+msgstr ""
+
+#: admin/views/metabox-config.php:923
+msgid "Tab and Key Navigation"
+msgstr ""
+
+#: admin/views/metabox-config.php:924
+msgid "Enable/Disable carousel scroll with tab and keyboard."
+msgstr ""
+
+#: admin/views/metabox-config.php:931
+msgid "Touch Swipe"
+msgstr ""
+
+#: admin/views/metabox-config.php:932
+msgid "On/Off touch swipe mode."
+msgstr ""
+
+#: admin/views/metabox-config.php:939
+msgid "Mouse Draggable"
+msgstr ""
+
+#: admin/views/metabox-config.php:940
+msgid "On/Off mouse draggable mode."
+msgstr ""
+
+#: admin/views/metabox-config.php:951
+msgid "Swipe to Slide"
+msgstr ""
+
+#: admin/views/metabox-config.php:952
+msgid ""
+"Allow users to drag or swipe directly to a slide irrespective of "
+"slidesToScroll."
+msgstr ""
+
+#: admin/views/metabox-config.php:967
+msgid "Style Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:973
+msgid "Space Between"
+msgstr ""
+
+#: admin/views/metabox-config.php:974
+msgid "Set space or margin between the slides. Default value is 20px."
+msgstr ""
+
+#: admin/views/metabox-config.php:987
+msgid "Slide Height"
+msgstr ""
+
+#: admin/views/metabox-config.php:988
+msgid "Set height for the slides in pixel."
+msgstr ""
+
+#: admin/views/metabox-config.php:1010
+msgid "Content Position"
+msgstr ""
+
+#: admin/views/metabox-config.php:1011
+msgid "Select a position for the title, content, meta etc."
+msgstr ""
+
+#: admin/views/metabox-config.php:1013
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/metabox-config.php:1014 admin/views/metabox-config.php:1383
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:173
+msgid "Right"
+msgstr ""
+
+#: admin/views/metabox-config.php:1015 admin/views/metabox-config.php:1381
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:171
+msgid "Left"
+msgstr ""
+
+#: admin/views/metabox-config.php:1016
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:330
+msgid "Overlay"
+msgstr ""
+
+#: admin/views/metabox-config.php:1024
+msgid "Overlay Content Type"
+msgstr ""
+
+#: admin/views/metabox-config.php:1025
+msgid "Set a position for the overlay content"
+msgstr ""
+
+#: admin/views/metabox-config.php:1028
+msgid "Fully Covered"
+msgstr ""
+
+#: admin/views/metabox-config.php:1029
+msgid "Caption Style"
+msgstr ""
+
+#: admin/views/metabox-config.php:1037
+msgid "Overlay Content Visibility"
+msgstr ""
+
+#: admin/views/metabox-config.php:1038
+msgid "Set visibility for the overlay content."
+msgstr ""
+
+#: admin/views/metabox-config.php:1040
+msgid "Always"
+msgstr ""
+
+#: admin/views/metabox-config.php:1041
+msgid "On Hover"
+msgstr ""
+
+#: admin/views/metabox-config.php:1050
+msgid "Overlay Background"
+msgstr ""
+
+#: admin/views/metabox-config.php:1051
+msgid "Set a color for the overlay background."
+msgstr ""
+
+#: admin/views/metabox-config.php:1059
+msgid "Slide Border"
+msgstr ""
+
+#: admin/views/metabox-config.php:1060
+msgid "Set border for the slide."
+msgstr ""
+
+#: admin/views/metabox-config.php:1072
+msgid "Inner Padding"
+msgstr ""
+
+#: admin/views/metabox-config.php:1073
+msgid "Set inner padding of the slide. Default value is 0."
+msgstr ""
+
+#: admin/views/metabox-config.php:1087
+msgid "Slide Background"
+msgstr ""
+
+#: admin/views/metabox-config.php:1088
+msgid "Set background color for the slide."
+msgstr ""
+
+#: admin/views/metabox-config.php:1095
+msgid "Video Icon Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:1096
+msgid "Used as video icon color."
+msgstr ""
+
+#: admin/views/metabox-config.php:1104
+msgid "Post Title"
+msgstr ""
+
+#: admin/views/metabox-config.php:1105
+msgid "Show/Hide post title."
+msgstr ""
+
+#: admin/views/metabox-config.php:1115
+msgid "Caption"
+msgstr ""
+
+#: admin/views/metabox-config.php:1116
+msgid "Show/Hide image caption."
+msgstr ""
+
+#: admin/views/metabox-config.php:1126
+msgid "Description"
+msgstr ""
+
+#: admin/views/metabox-config.php:1127
+msgid "Show/Hide description."
+msgstr ""
+
+#: admin/views/metabox-config.php:1137
+msgid "Post Content"
+msgstr ""
+
+#: admin/views/metabox-config.php:1138
+msgid "Show/Hide post content."
+msgstr ""
+
+#: admin/views/metabox-config.php:1148
+msgid "Content Display Type"
+msgstr ""
+
+#: admin/views/metabox-config.php:1149
+msgid "Select a content display type."
+msgstr ""
+
+#: admin/views/metabox-config.php:1151
+msgid "Excerpt"
+msgstr ""
+
+#: admin/views/metabox-config.php:1152
+msgid "Full Content"
+msgstr ""
+
+#: admin/views/metabox-config.php:1153
+msgid "Content with Limit"
+msgstr ""
+
+#: admin/views/metabox-config.php:1161
+msgid "Post Content Words Limit"
+msgstr ""
+
+#: admin/views/metabox-config.php:1162
+msgid "Set post content words limit. Default value is 30 words."
+msgstr ""
+
+#: admin/views/metabox-config.php:1170
+msgid "Read More Button"
+msgstr ""
+
+#: admin/views/metabox-config.php:1171
+msgid "Show/Hide content read more button."
+msgstr ""
+
+#: admin/views/metabox-config.php:1181
+msgid "Read More Button Text"
+msgstr ""
+
+#: admin/views/metabox-config.php:1182
+msgid "Change the read more button text."
+msgstr ""
+
+#: admin/views/metabox-config.php:1189
+msgid "Read More Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:1190
+msgid "Set color for the read more button."
+msgstr ""
+
+#: admin/views/metabox-config.php:1211
+msgid "Post Meta"
+msgstr ""
+
+#: admin/views/metabox-config.php:1217
+msgid "Post Category"
+msgstr ""
+
+#: admin/views/metabox-config.php:1218
+msgid "Show/Hide post category name."
+msgstr ""
+
+#: admin/views/metabox-config.php:1228
+msgid "Post Date"
+msgstr ""
+
+#: admin/views/metabox-config.php:1229
+msgid "Show/Hide post date."
+msgstr ""
+
+#: admin/views/metabox-config.php:1239
+msgid "Post Author"
+msgstr ""
+
+#: admin/views/metabox-config.php:1240
+msgid "Show/Hide post author name."
+msgstr ""
+
+#: admin/views/metabox-config.php:1251
+msgid "Post Tag"
+msgstr ""
+
+#: admin/views/metabox-config.php:1252
+msgid "Show/Hide post tags."
+msgstr ""
+
+#: admin/views/metabox-config.php:1263
+msgid "Post Comment"
+msgstr ""
+
+#: admin/views/metabox-config.php:1264
+msgid "Show/Hide post comment number."
+msgstr ""
+
+#: admin/views/metabox-config.php:1275
+msgid "Product Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:1281
+msgid "Product Name"
+msgstr ""
+
+#: admin/views/metabox-config.php:1282
+msgid "Show/Hide product name."
+msgstr ""
+
+#: admin/views/metabox-config.php:1292
+msgid "Product Price"
+msgstr ""
+
+#: admin/views/metabox-config.php:1293
+msgid "Show/Hide product price."
+msgstr ""
+
+#: admin/views/metabox-config.php:1303
+msgid "Product Description"
+msgstr ""
+
+#: admin/views/metabox-config.php:1304
+msgid "Show/Hide product description."
+msgstr ""
+
+#: admin/views/metabox-config.php:1314
+msgid "Limit Product Description"
+msgstr ""
+
+#: admin/views/metabox-config.php:1315
+msgid "Enable/Disable product description limit option."
+msgstr ""
+
+#: admin/views/metabox-config.php:1322
+msgid "Product Description Word Amount"
+msgstr ""
+
+#: admin/views/metabox-config.php:1323
+msgid ""
+"Number of word to show as the product description. Default value is 15 words."
+msgstr ""
+
+#: admin/views/metabox-config.php:1331
+msgid "Read More"
+msgstr ""
+
+#: admin/views/metabox-config.php:1332
+msgid "Show/Hide product content read more button."
+msgstr ""
+
+#: admin/views/metabox-config.php:1342
+msgid "Read More Text"
+msgstr ""
+
+#: admin/views/metabox-config.php:1343
+msgid "Write text for the read more button."
+msgstr ""
+
+#: admin/views/metabox-config.php:1350
+msgid "Product Rating"
+msgstr ""
+
+#: admin/views/metabox-config.php:1351
+msgid "Show/Hide product rating."
+msgstr ""
+
+#: admin/views/metabox-config.php:1361
+msgid "Rating Star Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:1362
+msgid "Set color for the rating stars."
+msgstr ""
+
+#: admin/views/metabox-config.php:1367
+msgid "Empty Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:1378
+msgid "Rating alignment"
+msgstr ""
+
+#: admin/views/metabox-config.php:1379
+msgid "Set alignment for the product rating star."
+msgstr ""
+
+#: admin/views/metabox-config.php:1392
+msgid "Add to Cart Button"
+msgstr ""
+
+#: admin/views/metabox-config.php:1393
+msgid "Show/Hide add to cart button."
+msgstr ""
+
+#: admin/views/metabox-config.php:1403
+msgid "Add to Cart Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:1404
+msgid "Set color for the add to cart button."
+msgstr ""
+
+#: admin/views/metabox-config.php:1426
+msgid "Image Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:1433
+msgid "Show/Hide slide image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1444
+msgid "Image Sizes"
+msgstr ""
+
+#: admin/views/metabox-config.php:1446
+msgid "Select a image size."
+msgstr ""
+
+#: admin/views/metabox-config.php:1452
+msgid "Image size"
+msgstr ""
+
+#: admin/views/metabox-config.php:1453
+msgid "Set width and height of the image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1480
+msgid "Image Height CSS"
+msgstr ""
+
+#: admin/views/metabox-config.php:1481
+msgid "Set image height in px."
+msgstr ""
+
+#: admin/views/metabox-config.php:1508
+msgid "Image Border"
+msgstr ""
+
+#: admin/views/metabox-config.php:1509
+msgid "Set border for the product image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1521
+msgid "Border Radius"
+msgstr ""
+
+#: admin/views/metabox-config.php:1522
+msgid "Set border radius for the carousel image. Square size image fits well."
+msgstr ""
+
+#: admin/views/metabox-config.php:1540
+msgid "Variable Width"
+msgstr ""
+
+#: admin/views/metabox-config.php:1541
+msgid "On/Off variable width. Number of column(s) depends on image width."
+msgstr ""
+
+#: admin/views/metabox-config.php:1549
+msgid "Enable/Disable lightbox for the image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1556
+msgid "Lazyload"
+msgstr ""
+
+#: admin/views/metabox-config.php:1557
+msgid "Set lazy-load option for the image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1559 admin/views/metabox-config.php:1575
+#: admin/views/metabox-config.php:1589
+#: admin/views/wpcpro-metabox/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: admin/views/metabox-config.php:1560
+msgid "On Demand"
+msgstr ""
+
+#: admin/views/metabox-config.php:1572
+msgid "Zoom"
+msgstr ""
+
+#: admin/views/metabox-config.php:1573
+msgid "Set a zoom effect on hover the image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1576
+msgid "Zoom In"
+msgstr ""
+
+#: admin/views/metabox-config.php:1577
+msgid "Zoom Out"
+msgstr ""
+
+#: admin/views/metabox-config.php:1586
+msgid "GrayScale"
+msgstr ""
+
+#: admin/views/metabox-config.php:1587
+msgid "Set a grayscale effect for the image."
+msgstr ""
+
+#: admin/views/metabox-config.php:1590
+msgid "Gray and normal on hover"
+msgstr ""
+
+#: admin/views/metabox-config.php:1591
+msgid "Gray on hover"
+msgstr ""
+
+#: admin/views/metabox-config.php:1592
+msgid "Always Gray"
+msgstr ""
+
+#: admin/views/metabox-config.php:1600
+msgid "Image Title Attribute"
+msgstr ""
+
+#: admin/views/metabox-config.php:1601
+msgid "Check to add image title attribute."
+msgstr ""
+
+#: admin/views/metabox-config.php:1616
+msgid "Typography"
+msgstr ""
+
+#: admin/views/metabox-config.php:1623
+msgid "Load Carousel Section Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1624
+msgid "On/Off google font for the carousel section title."
+msgstr ""
+
+#: admin/views/metabox-config.php:1630
+msgid "Carousel Section Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1631
+msgid "Set Carousel section title font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1650
+msgid "Load Caption Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1651
+msgid "On/Off google font for the image caption."
+msgstr ""
+
+#: admin/views/metabox-config.php:1658
+msgid "Caption Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1659
+msgid "Set caption font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1677
+msgid "Load Description Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1678
+msgid "On/Off google font for the image description."
+msgstr ""
+
+#: admin/views/metabox-config.php:1685
+msgid "Description Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1686
+msgid "Set description font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1704
+msgid "Load Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1705
+msgid "On/Off google font for the slide title."
+msgstr ""
+
+#: admin/views/metabox-config.php:1712
+msgid "Post Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1713
+msgid "Set title font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1734
+msgid "Post Content Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1735
+msgid "On/Off google font for post the content."
+msgstr ""
+
+#: admin/views/metabox-config.php:1746
+msgid "Post Content Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1747
+msgid "Set post content font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1764
+msgid "Post Category Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1765
+msgid "On/Off google font for the post category."
+msgstr ""
+
+#: admin/views/metabox-config.php:1776
+msgid "Post Category Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1777
+msgid "Set post category font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1798
+msgid "Post Meta Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1799
+msgid "On/Off google font for the post meta."
+msgstr ""
+
+#: admin/views/metabox-config.php:1810
+msgid "Post Meta Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1811
+msgid "Set post meta font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1832 admin/views/metabox-config.php:1972
+msgid "Read More Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1833 admin/views/metabox-config.php:1973
+msgid "On/Off google font for the read more."
+msgstr ""
+
+#: admin/views/metabox-config.php:1844 admin/views/metabox-config.php:1984
+msgid "Read More Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1845 admin/views/metabox-config.php:1985
+msgid "Set read more font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1868
+msgid "Product Name Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1869
+msgid "On/Off google font for the product name."
+msgstr ""
+
+#: admin/views/metabox-config.php:1880
+msgid "Product Name Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1881
+msgid "Set product name font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1904
+msgid "Product Description Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1905
+msgid "On/Off google font for the product description."
+msgstr ""
+
+#: admin/views/metabox-config.php:1916
+msgid "Product Description Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1917
+msgid "Set product description font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:1938
+msgid "Product Price Font Load"
+msgstr ""
+
+#: admin/views/metabox-config.php:1939
+msgid "On/Off google font for the product price."
+msgstr ""
+
+#: admin/views/metabox-config.php:1950
+msgid "Product Price Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:1951
+msgid "Set product price font properties."
+msgstr ""
+
+#: admin/views/option-config.php:15
+msgid "Settings"
+msgstr ""
+
+#: admin/views/option-config.php:49
+msgid "Remove Data when Uninstall"
+msgstr ""
+
+#: admin/views/option-config.php:50
+msgid "Check to remove plugin's data when plugin is uninstalled or deleted."
+msgstr ""
+
+#: admin/views/option-config.php:56
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/views/option-config.php:57
+msgid "Enqueue/Dequeue google font."
+msgstr ""
+
+#: admin/views/option-config.php:58 admin/views/option-config.php:98
+#: admin/views/option-config.php:108 admin/views/option-config.php:118
+#: admin/views/option-config.php:128 admin/views/option-config.php:142
+#: admin/views/option-config.php:152 admin/views/option-config.php:162
+#: admin/views/option-config.php:172 admin/views/option-config.php:182
+#: admin/views/option-config.php:192 admin/views/option-config.php:202
+msgid "Enqueue"
+msgstr ""
+
+#: admin/views/option-config.php:59 admin/views/option-config.php:99
+#: admin/views/option-config.php:109 admin/views/option-config.php:119
+#: admin/views/option-config.php:129 admin/views/option-config.php:143
+#: admin/views/option-config.php:153 admin/views/option-config.php:163
+#: admin/views/option-config.php:173 admin/views/option-config.php:183
+#: admin/views/option-config.php:193 admin/views/option-config.php:203
+msgid "Dequeue"
+msgstr ""
+
+#: admin/views/option-config.php:65
+msgid "Responsive Mode"
+msgstr ""
+
+#: admin/views/option-config.php:70
+msgid "Maximum Screen Width"
+msgstr ""
+
+#: admin/views/option-config.php:71
+msgid "Set screen sizes for responsive mdoe."
+msgstr ""
+
+#: admin/views/option-config.php:91
+msgid "Enqueue or Dequeue CSS"
+msgstr ""
+
+#: admin/views/option-config.php:96
+msgid "Slick CSS"
+msgstr ""
+
+#: admin/views/option-config.php:97
+msgid "Enqueue/Dequeue slick CSS."
+msgstr ""
+
+#: admin/views/option-config.php:106
+msgid "bxSlider CSS"
+msgstr ""
+
+#: admin/views/option-config.php:107
+msgid "Enqueue/Dequeue bxslider CSS."
+msgstr ""
+
+#: admin/views/option-config.php:116
+msgid "Font Awesome CSS"
+msgstr ""
+
+#: admin/views/option-config.php:117
+msgid "Enqueue/Dequeue font awesome CSS."
+msgstr ""
+
+#: admin/views/option-config.php:126
+msgid "Magnific Popup CSS"
+msgstr ""
+
+#: admin/views/option-config.php:127
+msgid "Enqueue/Dequeue magnific popup CSS."
+msgstr ""
+
+#: admin/views/option-config.php:135
+msgid "Enqueue or Dequeue JS"
+msgstr ""
+
+#: admin/views/option-config.php:140
+msgid "Preloader JS"
+msgstr ""
+
+#: admin/views/option-config.php:141
+msgid "Enqueue/Dequeue preloader JS."
+msgstr ""
+
+#: admin/views/option-config.php:150
+msgid "Slick JS"
+msgstr ""
+
+#: admin/views/option-config.php:151
+msgid "Enqueue/Dequeue slick JS."
+msgstr ""
+
+#: admin/views/option-config.php:160
+msgid "Slick Configuration JS"
+msgstr ""
+
+#: admin/views/option-config.php:161
+msgid "Enqueue/Dequeue slick configuration JS."
+msgstr ""
+
+#: admin/views/option-config.php:170
+msgid "bxSlider JS"
+msgstr ""
+
+#: admin/views/option-config.php:171
+msgid "Enqueue/Dequeue bxSlider JS."
+msgstr ""
+
+#: admin/views/option-config.php:180
+msgid "bxSlider Configuration JS"
+msgstr ""
+
+#: admin/views/option-config.php:181
+msgid "Enqueue/Dequeue bxSlider configuration JS."
+msgstr ""
+
+#: admin/views/option-config.php:190
+msgid "Magnific Popup JS"
+msgstr ""
+
+#: admin/views/option-config.php:191
+msgid "Enqueue/Dequeue Magnific popup JS."
+msgstr ""
+
+#: admin/views/option-config.php:200
+msgid "Magnific Popup Configuration JS"
+msgstr ""
+
+#: admin/views/option-config.php:201
+msgid "Enqueue/Dequeue Magnific popup configuration JS."
+msgstr ""
+
+#: admin/views/option-config.php:219 admin/views/option-config.php:225
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/option-config.php:226
+msgid "Type your css."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/metabox.class.php:248
+#: admin/views/wpcpro-metabox/classes/options.class.php:673
+msgid "No option provided by developer."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/metabox.class.php:266
+msgid "Restore"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/metabox.class.php:267
+msgid "update post for restore "
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/metabox.class.php:267
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:252
+#: admin/views/wpcpro-metabox/functions/actions.php:116
+#: admin/views/wpcpro-metabox/functions/actions.php:181
+#: admin/views/wpcpro-metabox/functions/actions.php:208
+msgid "Error while saving."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:303
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:313
+msgid "Default options restored."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:326
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:381
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:575
+msgid "show all options"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:577
+msgid "Search option(s)"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:580
+#: admin/views/wpcpro-metabox/classes/options.class.php:697
+msgid "Save"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:580
+#: admin/views/wpcpro-metabox/classes/options.class.php:697
+msgid "Saving..."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:581
+#: admin/views/wpcpro-metabox/classes/options.class.php:698
+msgid "Reset Section"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:581
+#: admin/views/wpcpro-metabox/classes/options.class.php:698
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:582
+#: admin/views/wpcpro-metabox/classes/options.class.php:699
+#: admin/views/wpcpro-metabox/fields/backup/backup.php:34
+msgid "Reset All"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/options.class.php:582
+#: admin/views/wpcpro-metabox/classes/options.class.php:699
+msgid "Are you sure to reset all options?"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/setup.class.php:369
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/setup.class.php:370
+msgid "Restoring options."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/setup.class.php:371
+msgid "Importing options."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/setup.class.php:410
+#, php-format
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/setup.class.php:453
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/classes/setup.class.php:456
+msgid "This type is not found!"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:38
+msgid "No background selected"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:67
+msgid "From"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:89
+msgid "To"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:111
+msgid "Direction"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:118
+msgid "Gradient Direction"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:119
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:120
+msgid "&#8658; left to right"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:121
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:122
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:171
+msgid "Background Position"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:172
+msgid "Left Top"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:173
+msgid "Left Center"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:174
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:175
+msgid "Center Top"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:176
+msgid "Center Center"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:177
+msgid "Center Bottom"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:178
+msgid "Right Top"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:179
+msgid "Right Center"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:180
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:202
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:203
+msgid "Repeat"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:204
+msgid "No Repeat"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:205
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:206
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:228
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:229
+msgid "Scroll"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:230
+msgid "Fixed"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:252
+msgid "Background Size"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:253
+msgid "Cover"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:254
+msgid "Contain"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:276
+msgid "Background Origin"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:277
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:303
+msgid "Padding Box"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:278
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:302
+msgid "Border Box"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:279
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:304
+msgid "Content Box"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:301
+msgid "Background Clip"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:326
+msgid "Background Blend Mode"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:327
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:190
+msgid "Normal"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:328
+msgid "Multiply"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:329
+msgid "Screen"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:331
+msgid "Darken"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:332
+msgid "Lighten"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:333
+msgid "Color Dodge"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:334
+msgid "Saturation"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/background_adv/background_adv.php:336
+msgid "Luminosity"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/backup/backup.php:26
+msgid "Import"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/backup/backup.php:27
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/backup/backup.php:32
+msgid "Export and Download Backup"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/backup/backup.php:35
+msgid "Please be sure for reset all of options."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:27
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:42
+#: admin/views/wpcpro-metabox/fields/spacing/spacing.php:41
+msgid "top"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:28
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:43
+#: admin/views/wpcpro-metabox/fields/spacing/spacing.php:42
+msgid "right"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:29
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:44
+#: admin/views/wpcpro-metabox/fields/spacing/spacing.php:43
+msgid "bottom"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:30
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:45
+#: admin/views/wpcpro-metabox/fields/spacing/spacing.php:44
+msgid "left"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:31
+#: admin/views/wpcpro-metabox/fields/column/column.php:51
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:46
+#: admin/views/wpcpro-metabox/fields/spacing/spacing.php:45
+msgid "all"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:56
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:72
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:226
+msgid "Solid"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:57
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:73
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:229
+msgid "Dashed"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:58
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:74
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:228
+msgid "Dotted"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:59
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:75
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:227
+msgid "Double"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:60
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:76
+msgid "Inset"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:61
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:77
+msgid "Outset"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:62
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:78
+msgid "Groove"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:63
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:79
+msgid "ridge"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/border/border.php:64
+#: admin/views/wpcpro-metabox/fields/dimensions_advanced/dimensions_advanced.php:80
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:207
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:225
+msgid "None"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/checkbox/checkbox.php:44
+#: admin/views/wpcpro-metabox/fields/radio/radio.php:46
+#: admin/views/wpcpro-metabox/fields/select/select.php:76
+msgid "No data provided for this option type."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/column/column.php:46
+msgid "Large Desktop"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/column/column.php:47
+msgid "Desktop"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/column/column.php:48
+msgid "Small Desktop"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/column/column.php:49
+msgid "Tablet"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/column/column.php:50
+msgid "Mobile"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/gallery/gallery.php:22
+msgid "Add Gallery"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/gallery/gallery.php:23
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/gallery/gallery.php:24
+msgid "Clear"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/group/group.php:25
+#: includes/class-wp-carousel-pro-post-types.php:77
+msgid "Add New"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/group/group.php:38
+#: admin/views/wpcpro-metabox/fields/repeater/repeater.php:30
+msgid "Error: Nested field id can not be same with another nested field id."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/group/group.php:49
+#: admin/views/wpcpro-metabox/fields/group/group.php:89
+#: admin/views/wpcpro-metabox/fields/repeater/repeater.php:51
+#: admin/views/wpcpro-metabox/fields/repeater/repeater.php:82
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/group/group.php:123
+#: admin/views/wpcpro-metabox/fields/repeater/repeater.php:96
+msgid "You can not add more than"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/group/group.php:124
+#: admin/views/wpcpro-metabox/fields/repeater/repeater.php:97
+msgid "You can not remove less than"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/image_sizes/image_sizes.php:57
+msgid "Original uploaded image"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/image_sizes/image_sizes.php:58
+msgid "Set custom size"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/image_sizes/image_sizes.php:107
+msgid "No image sizes found."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/media/media.php:23
+#: admin/views/wpcpro-metabox/fields/upload/upload.php:21
+msgid "Upload"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/media/media.php:54
+msgid "No media selected"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:88
+msgid "Font Family"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:89
+msgid "Select a font"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:97
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:117
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:131
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:144
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:159
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:178
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:195
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:213
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:235
+msgid "Default"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:129
+msgid "Font Style"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:143
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:144
+msgid "Load Extra Styles"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:157
+msgid "Subset"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:167
+msgid "Text Align"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:174
+msgid "Justify"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:175
+msgid "Initial"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:187
+msgid "Font Variant"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:191
+msgid "Small Caps"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:192
+msgid "All Small Caps"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:204
+msgid "Text Transform"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:208
+msgid "Capitalize"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:209
+msgid "Uppercase"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:210
+msgid "Lowercase"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:222
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:230
+msgid "Wavy"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:231
+msgid "Overline"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:232
+msgid "Line-through"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:248
+msgid "Font Size"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:260
+msgid "Line Height"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:272
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:284
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:300
+msgid "Font Color"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:311
+msgid "Font Hover Color"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:324
+msgid "Custom Style"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:391
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:397
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/fields/typography/typography.php:420
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/actions.php:100
+msgid "No data provided by developer"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/actions.php:234
+msgid "Add Icon"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/actions.php:238
+msgid "Search a Icon..."
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/validate.php:14
+#: admin/views/wpcpro-metabox/functions/validate.php:86
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/validate.php:32
+#: admin/views/wpcpro-metabox/functions/validate.php:106
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/validate.php:50
+#: admin/views/wpcpro-metabox/functions/validate.php:126
+msgid "Error! This field is required!"
+msgstr ""
+
+#: admin/views/wpcpro-metabox/functions/validate.php:68
+#: admin/views/wpcpro-metabox/functions/validate.php:146
+msgid "Please write a valid url!"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:75
+msgid "WordPress Carousels"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:76
+msgid "WP Carousel"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:78
+msgid "Add New WP Carousel"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:79
+msgid "Edit WP Carousel"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:80
+msgid "New WP Carousel"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:81
+msgid "View WP Carousel"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:82
+msgid "Search WP Carousels"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:83
+msgid "No WP Carousels found."
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:84
+msgid "No WP Carousels found in trash."
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:85
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:86
+msgid "WP Carousel Pro"
+msgstr ""
+
+#: includes/class-wp-carousel-pro-post-types.php:87
+msgid "All Carousels"
+msgstr ""
+
+#: public/templates/post-carousel.php:103
+msgid " by "
+msgstr ""
+
+#: public/templates/post-carousel.php:126
+msgid "1"
+msgstr ""
+
+#: public/templates/post-carousel.php:167
+msgid "No posts found"
+msgstr ""
+
+#: public/templates/product-carousel.php:129
+msgid "Rated "
+msgstr ""
+
+#: public/templates/product-carousel.php:129
+msgid " out of 5"
+msgstr ""
+
+#: public/templates/product-carousel.php:160
+msgid "No products found"
+msgstr ""

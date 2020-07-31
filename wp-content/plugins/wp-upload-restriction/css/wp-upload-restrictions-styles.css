@@ -1,0 +1,63 @@
+#message, #error_message{
+    display: none;
+}
+div.role-list{
+    float: left;
+    width: 10%;
+    background-color: #FFF;
+    padding: 15px;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+div.role-list .sub-title{
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+div.role-list a{
+    display: block;
+    text-decoration: none;
+    margin-top: 3px;
+    padding-left: 19px;
+}
+div.role-list a.active{
+    border: 1px solid #0073aa;
+}
+.check-uncheck-links{
+    margin-bottom: 5px;
+}
+.ajax-loading-img{
+    background: url("ajax-loader.gif") no-repeat;
+}
+div.mime-list-section{
+    float: left;
+    width: 80%;
+    background-color: #FFF;
+    padding: 15px;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+div#mime-list{
+    margin-top: 10px;
+}
+
+div#mime-list .list div{
+    float: left;
+    width: 25%;
+}
+
+p.submit{
+    clear: both;
+}
+.submit-loading{
+    background-position: 0 6px;
+    display: none;
+    height: 22px;
+    width: 16px;
+}
+
+#cont_save_type div.message{
+    color: #00AA00;
+    display: none;
+}

@@ -1,0 +1,461 @@
+/*
+Theme Name: CVF-Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Template: twentyseventeen
+Author: Tboult , UCSCS VAST LAb team and of course we build on WordPress
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device. This was customized for CVF's CVPR2020
+Tags: one-column,two-columns,right-sidebar,flexible-header,accessibility-ready,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 2.4.1589852685
+Updated: 2020-05-18 19:44:45
+
+*/
+
+
+.wp-video, video.wp-video-shortcode, .mejs-container, .mejs-overlay.load {
+    width: 100% !important;
+    height: 100% !important;
+}
+.mejs-container {
+    padding-top: 56.25%;
+}
+.wp-video, video.wp-video-shortcode {
+    max-width: 100% !important;
+}
+video.wp-video-shortcode {
+    position: relative;
+}
+.mejs-mediaelement {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.mejs-controls {
+    display: none;
+}
+.mejs-overlay-play {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* don't waste space so early full width structure */
+
+.wrap {
+    max-width: 95% !important;
+}
+
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+    max-width: 100% !important;
+}
+
+@media screen and (min-width: 48em) {
+    .wrap {
+        max-width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 30em) {
+
+    .page-one-column .panel-content .wrap {
+        max-width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .wrap {
+        max-width: 95% !important;
+    }
+}
+
+
+//custom template for event listb does not properly handle css so cannot override... /var/www/html/wp-content/plugins/template-events-calendar/assets/css/ect-list-view.css
+// so copy, rename edit here and in tempalte
+
+/*
+List Common Styles
+*/
+
+#tb-events-list-content,
+.tb-list-wrapper {
+  display: inline-block;
+  width: 100%;
+  max-width:100%;
+  margin: 5px auto;
+  padding: 0;
+}
+
+.tb-list-post {
+  width: 100%;
+  height: 100%;
+  min-height:128px;
+  box-sizing: border-box;
+  word-break: break-word;
+  display: table;
+  margin: 15px auto;
+}
+
+.tb-list-post-left {
+  width: .1%;
+  height: 100%;
+  background-size: cover;
+  display: table-cell;
+  position: relative;
+  min-height: 128px;
+  min-width: 128px;  
+//    min-height: 256px;
+}
+.tb-list-post-right {
+  width: 5%;
+  display: table-cell;
+  background: rgb(244, 252, 255);
+  vertical-align: top;
+  height: 100%;
+}
+.tb-list-post-left:hover{
+  -webkit-filter: brightness(95%) hue-rotate(2deg);
+  filter: brightness(95%) hue-rotate(2deg);
+}
+
+.tb-list-img {
+  float: none;
+  height: 128px
+  width: 128px;
+  background-color:#ebf0f7;
+}
+
+.tb-list-post a {
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.tb-list-post-left .tb-list-date {
+  -webkit-transition: width linear 0.5s; /* Safari */
+  transition: width linear 0.5s;
+  width: 15%;
+  min-width: 128px;
+  display: table;
+  text-align: center;
+  background: rgba(219, 245, 255, 0.96);
+  height: 100%;
+  color: rgb(0, 68, 94);
+  vertical-align: middle;
+  padding: 4px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  z-index:2;
+}
+
+.tb-list-post:hover .tb-list-post-left .tb-list-date {
+  width:100%;
+}
+
+.tb-featured-event .tb-list-post-left .tb-list-date {
+  background: rgba(241, 158, 89, 0.85);
+  color: rgb(58, 34, 1);
+}
+
+.tb-list-date .tb-date-area {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 92%;
+  font-size: 24px;
+  font-family: inherit;
+  padding-top:14px;
+}
+
+.tb-list-date .tb-date-area .ev-time span.tb-icon {
+  display: none !IMPORTANT;
+}
+
+.tb-list-date .tb-date-area .ev-day {
+  font-size: 1em;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.tb-list-date .tb-date-area .ev-mo {
+  font-size: 0.45em;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.tb-list-date .tb-date-area .ev-yr  {
+  font-size: 0.4em;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: -14px;
+}
+
+.tb-list-date .tb-date-area .ev-time {
+  font-size: 0.32em;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.35em;
+}
+
+/*right side*/
+.tb-list-post-right-table {
+  display: table;
+  vertical-align: top;
+  height:100%;
+  width:100%;
+}
+
+.tb-list-post-right .tb-list-description {
+  width: 85%;
+  height: 100%;
+  display: table-cell;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-right: 1px solid rgb(193, 238, 255);
+}
+
+.tb-list-post a.tb-events-read-more {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.tb-list-post h2.tb-list-title {
+  font-size: 20px;
+  font-family: inherit;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.tb-list-post h2.tb-list-title:before {
+  display:none;
+}
+
+.tb-list-post h2.tb-list-title a {
+  color: rgb(0, 68, 94);
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.tb-list-post h2.tb-list-title a:hover {
+  filter: opacity(0.75);
+  -webkit-filter: opacity(0.75);
+}
+
+.tb-list-description .tb-event-content {
+  font-size: 14px;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  display:inline-block;
+  width:100%;
+  line-height:normal;
+}
+
+.tb-list-description .tb-event-content p {
+  padding: 0;
+  margin: 0;
+  display:inline-block;
+  width:100%;
+}
+
+#tb-events-list-content a.tb-events-read-more {
+  display: inline-block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+#tb-events-list-content span.tb-icon {
+	font-size: 14px;
+	display: inline-block;
+	width:34px;
+	vertical-align: middle;
+}
+
+
+
+
+/*** 
+     CSS for Classic List Style
+  ***/
+
+
+.style-3 .tb-list-date {
+  display: table-cell;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  background: rgb(219, 245, 255);
+  font-size: 28px;
+}
+
+.ev-smalltime {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.tb-clslist-event-info {
+  background: rgb(244, 252, 255);
+  display: table-cell;
+  width: calc(100% - 340px);
+  vertical-align: middle;
+  padding: 10px 25px;
+  text-align: left;
+}
+
+.style-3-readmore {
+  background: rgb(224, 246, 255);
+  box-shadow: rgb(193, 238, 255) 0px 0px 25px -5px inset;
+  display: table-cell;
+  width: 180px;
+  text-align: center;
+  position: relative;
+}
+
+.tb-clslist-inner-container .tb-venue-details {
+  width:calc(100% - 40px);
+}
+
+
+/*
+  Media Query 
+*/
+
+@media only screen and (max-width: 790px) {
+  .tb-list-post {
+    margin-bottom: 35px;
+  }
+  .tb-list-post-left .tb-list-date {
+    width:100%;
+    position: absolute;
+    top: inherit;
+    bottom: 0;
+  }
+  .tb-list-date .tb-date-area .ev-day,
+  .tb-list-date .tb-date-area .ev-mo,
+  .tb-list-date .tb-date-area .ev-yr {
+    clear: none;
+    width: auto;
+    height: auto;
+    float: left;
+    top:0;
+    margin-left:5px;
+  }
+  .tb-list-date .tb-date-area .ev-time {
+    text-align: left;
+    margin-left: 5px;
+  }
+  .tb-list-post .tb-list-post-right .tb-list-description {
+    border-right : 0;
+  }
+  .tb-list-img {
+      min-height:128px;
+  }
+  .tb-list-post-left
+  {
+      max-height:128px;
+  }
+
+  .tb-list-post-left,
+  
+  .tb-list-post-right,
+  .tb-list-post-right-table,
+  .tb-list-venue,
+  .style-3 .tb-list-date { 
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+  }
+  .tb-list-post-right .tb-list-venue {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    text-align: left;
+  }
+  .tb-list-post {
+    padding: 30px auto;
+  }
+
+  .tb-list-post-right .tb-list-description,
+  .modern-list-right-side {
+    display:inline-block;
+    width:100%;
+  }
+  .tb-modern-time {
+    display: inline-block;
+  }
+
+
+.panel-image {
+      height: 200px;
+      max-height: 200px;
+  }
+
+
+
+
+.sponsorcolumn{
+      width:55%
+      float: right;
+      display:inline-block;
+      box-sizing:border-box;
+      -moz-box-sizing:border-box;      
+  }
+.chatcolumn{
+    width:     40%;
+    display:inline-block    ;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;  
+    float: left;
+  }  
+  /* Clear floats after the columns */
+.chatrow:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+#div.MainBox{
+      background-color: rgb(200, 168, 194);
+}
+
+
+.ect-date-area .tribe-events-gcal  .tribe-events-ical  tribe-events-button  {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+
+
+.Authors{
+      font-size: 24px;
+}
+
+
+@media screen and (min-width: 48em)
+.site-footer .widget-column.footer-widget-2 {
+    /* float: right; */
+    width: 90%;
+}

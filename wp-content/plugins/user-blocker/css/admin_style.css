@@ -1,0 +1,760 @@
+/* General setting for this plugin only */
+.aligntextcenter {
+    text-align: center !important;
+}
+#username {
+    float: left;
+    width: 100%;
+    table-layout: auto;
+}
+#username table.fixed {
+    clear: none !important;
+    float: left !important;
+}
+.widefat.post.fixed td.check-column {
+    padding: 6px 10px;
+}
+.widefat .sr-no {
+    width: 27px;
+}
+.form-table.tbl-timing {
+    border-collapse: collapse;
+}
+.form-table.tbl-timing td {
+    padding: 15px 0;
+    border: 1px solid #e1e1e1;
+}
+.form-table.tbl-timing th {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #e1e1e1;
+    line-height: 2;
+}
+.tbl-timing td {
+    padding-bottom: 0;
+}
+.tbl-timing h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.time-field {
+    width: 70px;
+}
+.week-lbl {
+    width: 100px;
+}
+.week-time {
+    width: 300px;
+}
+.filter_div {
+    float: left;
+}
+.filter_div a.button {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 0;
+    vertical-align: baseline;
+}
+.filter_div input[name="txtUsername"] {
+    width: 250px;
+}
+.role_records {
+    display: none;
+    width: 100%;
+}
+.cover_form {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 0 0 5px 5px;
+    float: left;
+    padding: 20px;
+    width:calc(75% - 20px);
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.tab_parent li a.current {
+    position: relative;
+    bottom: -1px;
+    padding-top: 12px;
+}
+.tab_parent_parent {
+    float: left;
+    margin-bottom: 0;
+    width: 76%;
+}
+.tab_parent {
+    float: left;
+}
+.tab_parent > ul {
+    margin: 0;
+}
+.striped > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1){
+    background: #fff;
+}
+.striped tbody tr.view_block_data_tr{
+    background: #eeeeee !important;
+}
+.striped tbody tr.alt{
+    background: #f9f9f9 !important;
+}
+.view_block_data_tr .view_block_table.form-table.tbl-timing{
+    margin-top: 0;
+}
+.tab_parent li {
+    /*display: inline-block;*/
+    display: table-cell;
+    font-size: 18px;
+    margin: 0;
+}
+.tab_parent ul li:first-child a {
+    border-left: 1px solid #cccccc;
+    border-radius: 5px 0 0;
+}
+.tab_parent ul li:last-child a {
+    border-radius: 0 5px 0 0;
+}
+.tab_parent a {
+    background: none repeat scroll 0 0 #f1f1f1;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    color: #484848;
+    display: block;
+    padding: 11px 19px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.tab_parent a:hover {
+    color: #484848;
+}
+.admin_page_block_user_permenant #wpcontent,
+.toplevel_page_block_user #wpcontent,
+.admin_page_block_user_date #wpcontent,
+.user-blocker_page_blocked_user_list #wpcontent,
+.admin_page_datewise_blocked_user_list #wpcontent,
+.admin_page_permanent_blocked_user_list #wpcontent,
+.admin_page_all_type_blocked_user_list #wpcontent {
+    /*    background: #ffffff;
+        height: auto;*/
+}
+.tr_head {
+    background: #fff;
+}
+.form-table.tbl-timing {
+    background: #fff;
+}
+.tab_parent a.current {
+    background: #ffffff;
+}
+.block_msg_left {
+    float: left;
+}
+.block_msg_note_div {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+}
+.user_lbl {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 0 0 0;
+    padding: 6px 10px;
+    background: #fff;
+    font-size: 16px;
+    float: left;
+}
+.user_lbl:first-child {
+    border-right: none;
+}
+.user_lbl:last-child {
+    border-radius: 0 5px 0 0;
+}
+#frmBlockUser .tablenav.top {
+    margin: 0;
+}
+.search_div {
+    margin: 12px 0;
+}
+.chkapply {
+    margin-top: 6px;
+    float: right;
+}
+.wp-core-ui .button.primary-button {
+    background: none repeat scroll 0 0 #4a4a4a;
+    border: medium none;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.wp-core-ui .button.primary-button:hover {
+    background: none repeat scroll 0 0 #4a4a4a;
+    color: #ffffff;
+}
+.view_block_table {
+    width:100%;
+}
+.view_block_table.form-table.tbl-timing td {
+    padding: 10px 0;
+}
+.view_block_table.form-table.tbl-timing {
+    background: none repeat scroll 0 0 #f8f8f8;
+}
+.view_block_data_tr {
+    display: none;
+}
+a.view_block_data:focus {
+    box-shadow: none;
+}
+.block_msg_title {
+    float: left;
+    width: 100%;
+}
+.block_msg_title span {
+    background: #C11B17;
+    color: #ffffff;
+    padding: 3px 7px;
+}
+.check-column {
+    width: 25px;
+}
+.blk-date {
+    width: 180px;
+}
+.tbl-action {
+    width: 50px;
+}
+.user-role {
+    width: 150px;
+}
+.th-name {
+    width: 125px;
+}
+.th-email {
+    width: 190px;
+}
+.day-table {
+    border-left: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background: #fff;
+}
+.days {
+    text-align: center;
+    width: 133px;
+    border-right: 1px solid #cccccc;
+    float: left;
+}
+.days span {
+    display: block;
+    padding: 3px 5px;
+    border-bottom: 1px solid #cccccc;
+}
+.search_box div.actions {
+    clear: both;
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+    padding-right: 0;
+}
+#blocked-list .widefat td,
+#blocked-list .widefat th {
+    padding: 8px 5px;
+}
+.th-role{
+    width: 90px;
+}
+.th-username {
+    width: 120px;
+}
+.th-time {
+    width: 80px;
+}
+.role_records .th-time {
+    width: 127px;
+}
+.th-time {
+    width: 80px;
+}
+.block_msg_title {
+    float: left;
+    width: 100%;
+}
+.role_records th.th-time {
+    width:99px;
+}
+.admin_page_datewise_blocked_user_list .users_records .th-time,
+.admin_page_permanent_blocked_user_list .role_records .th-time {
+    width:200px;
+}
+.admin_page_permanent_blocked_user_list .sr-no,.admin_page_datewise_blocked_user_list .sr-no {
+    width:40px;
+    text-align: center;
+}
+.date_detail_row .tbl-timing {
+    margin-top: 0;
+}
+.tbl-timing label {
+    color: #df0000;
+}
+.view_block_data_tr {
+    display: table-row;
+    display: none;
+}
+#frmSearch > .actions select {
+    float: none;
+}
+#blocked-list th.sortable a {
+    padding-left: 0;
+    padding-right: 0;
+}
+td.check-column > input {
+    margin-top: 5px !important;
+}
+/*--------- To add help sidebar-------*/
+.td-admin-sidebar {
+    width: 25%;
+    float: left;
+}
+.td-help {
+    border: 2px solid #008000;
+    border-radius: 3px;
+    background: #fff;
+    display: inline-block;
+    width: calc(100% - 4px);
+}
+.td-help > h2 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.trash-duplicates-inner {
+    width: 74%;
+    float: left;
+    margin-right: 20px;
+}
+.td-total-download .star-rating {
+    display: inline-block;
+    float: right;
+}
+.td-total-download {
+    margin-top: 30px;
+}
+.help-wrapper {
+    padding: 10px;
+}
+.td-support,
+.useful_plugins {
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 3px;
+}
+.td-support h3,
+.useful_plugins h3 {
+    padding: 10px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+}
+.download-number,
+.useful_plugins a {
+    font-size: 16px;
+}
+ul.plugins_list {
+    margin: 0;
+}
+.pre-book-pro:hover {
+    opacity: 0.8;
+}
+.pre-book-pro {
+    background: #E21130;
+}
+.pre-book-pro a {
+    background: #e21130 none repeat scroll 0 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    line-height: normal;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+.pricing_change {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    width: 100%;
+}
+.pricing_change del {
+    color: #e21130;
+    font-weight: bolder;
+}
+.pricing_change ins {
+    color: #1f6f1e;
+    font-size: 20px;
+    text-decoration: none;
+}
+.useful_plugins h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 10px 15px;
+}
+.useful_plugins ul li::before {
+    content: '\f139';
+    font-family: dashicons;
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+.ual_advertisement_legend {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.useful_plugins .help-wrapper {
+    padding: 20px 20px 25px;
+}
+.useful_plugins h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 10px 15px;
+}
+.useful_plugins ul li {
+    color: #7f7f7f;
+    font-family: sans-serif;
+}
+#role th.check-column > input,
+#username th.check-column > input {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.blk-msg {
+    width: 100px;
+}
+#blocked-list .tab_parent_parent, #blocked-list .cover_form {
+    width: 100%;
+    margin: 0;
+}
+.tbl-timing .week-time input.time {
+    width: 85% !important;
+}
+.subscribe_widget {
+    margin: 10px;
+}
+.sub_row {
+    margin: 10px 0;
+    line-height: 1.7;
+}
+.sub_row label {
+    display: inline-block;
+    min-width: 100px;
+}
+.success_msg {
+    color: green;
+}
+.sub_row > input {
+    height: 37px;
+    width: 327px;
+}
+.sub_row > input {
+    height: 37px;
+    width: 310px;
+}
+.subscribe_widget .button.button-primary {
+    font-size: 16px;
+    height: 40px;
+    width: 240px;
+}
+.subscribe_widget .button.button-delete {
+    font-size: 16px;
+    height: 40px;
+    width: 167px;
+}
+.sub_row .sub_checkbox {
+    width:15px;
+    height: auto;
+    margin: 0 6px 0 0;
+}
+.sub_row_checkbox {
+    margin: 15px 0;
+}
+.block_msg_div textarea{
+    resize: vertical;
+    min-height: 110px;
+}
+/*dashboard style*/
+.display-product {
+    float: left;
+    margin-right: 3%;
+    width: 34%;
+}
+.solwin-news {
+    float: right;
+    width: 63%;
+}
+.product-name img {
+    border: 1px solid #dddddd;
+    max-width: 230px;
+    width: 100%;
+}
+.product-detail a {
+    display: inline-block;
+    font-weight: normal;
+    width: 100%;
+}
+.product-name p {
+    display: inline-block;
+}
+.product-detail .product-name ul {
+    list-style: outside none disc;
+}
+.product-detail .product-name ul li {
+    margin-left: 10px;
+}
+#wpbody-content #dashboard-widgets.columns-2 #postbox-container-1 {
+    width: 49.5%;
+}
+#wpbody-content #dashboard-widgets.columns-1 #postbox-container-1 {
+    width: 100%;
+}
+.ui-timepicker-wrapper {
+    min-width: 110px;
+}
+/*
+** Optin Form
+*/
+
+.ublk_header_wizard {
+    width: 50%;
+    display: table;
+    background-color: #fff;
+    padding: 0 15px;
+    position: relative;
+    margin: 15px;
+}
+.ublk_header_wizard p {
+    font-size: 16px;
+    color: #444;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.ublk_header_wizard p input {
+    width: 100%;
+    height: 34px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-left: 2px;
+}
+.ublk_header_wizard p input.ublk_agree {
+    width: auto;
+    height: auto;
+}
+.ublk_header_wizard p.ublk_permission {
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.ublk_header_wizard p.ublk_permission b {
+    color: #f69837;
+}
+.ublk_permission_cover {
+    display: inline-block;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.ublk_permission_cover .ublk_permission_row .ublk_50 {
+    width: 50%;
+    float: left;
+    margin: 10px 0;
+}
+.ublk_permission_cover .ublk_permission_row .ublk_50 .dashicons {
+    float: left;
+    font-size: 45px;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.ublk_50_inner label:first-of-type {
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+}
+.ublk_50_inner label {
+    margin: 0px;
+    font-size: 12px;
+}
+.ublk_header_wizard p.ublk_buttons {
+    padding: 0;
+}
+.ublk_header_wizard p.ublk_buttons .button-secondary {
+    color: #fff;
+    background: #C0C7CA;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 15px;
+    display: inline-block;
+    position: relative;
+    font-weight: 800;
+    height: 100%;
+    box-shadow: none;
+    border-width: 0;
+    line-height: 30px;
+}
+.ublk_header_wizard p.ublk_buttons .button-secondary:hover {
+    background: #C0C7CA;
+    color: #fff;
+    border: none;
+}
+.ublk_header_wizard p.ublk_buttons .button-primary {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 800;
+    height: 100%;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+}
+.support-ticket-section {
+    width: 22%;
+    background: #fafafa;
+    padding: 19px 40px 40px;
+    text-align: center;
+    border: 1px dashed #d6d6d6;
+    float: right;
+    margin-top: 20px;
+}
+.support-ticket-section a {
+    display: block;
+    margin-top: 10px;
+    color: #444;
+}
+.support-ticket-section h3 {
+    line-height: 22px;
+}
+#frmDeactivationublk {
+    width: 64%;
+    float: left;
+}
+.ublk-deactivation {
+    padding-top: 5px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#wpcontent {
+    overflow: hidden;
+}
+
+#TB_ajaxContent.ub_deactive_window {
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+    
+    #blocked-list .cover_form {
+        overflow-x: scroll;
+    }
+    table.fixed {
+        table-layout: auto;
+    }
+    .wrap #username {
+        display: inline-block !important;
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tbl-timing h3 {
+        margin-bottom: 10px;
+    }
+
+    .block_msg_left {
+        display: inline-block;
+        width: 100%;
+    }
+    .block_msg_left textarea {
+        display: inline-block;
+        width: 100% !important;
+    }
+    .form-table.tbl-timing {
+        display: inline-block;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .form-table.tbl-timing td,
+    .form-table.tbl-timing th {
+        display: table-cell;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cover_form {
+        width: 65%;
+    }
+    .td-admin-sidebar {
+        width: 32%;
+    }
+    .tab_parent_parent {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    input[type="radio"], input[type="checkbox"] {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover_form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .td-admin-sidebar {
+        width: 100%;
+    }
+    .tab_parent_parent {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tab_parent li {
+        display: inline-block;
+        width: 100%;
+    }
+    
+}
